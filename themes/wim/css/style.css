@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+
+.site-header {
+    flex: 0 0 auto;
+    padding: 0 1em;
+    max-width: 48em;
+    margin: 0 auto;
+}
+
+.siteheader a, .siteheader a:visited {
+    color: #2b2e30;
+}
+
+/* Main */
+
+.main {
+    flex: 1 0 auto;
+    padding: 2em;
+}
+
+.container {
+    max-width: 48em;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+/* Footer */
+
+.site-footer {
+    flex: 0 0 auto;
+    padding: 2em;
+}
+
+.site-footer a {
+    color: #f0f0f0;
+    max-width: 48em;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Frutiger, "Frutiger Linotype", Univers,
+                 Calibri, Helvetica, Arial, sans-serif;
+    margin-top: 1em;
+}
+
+h1,
+h2 {
+    border-bottom: 1px solid #313030;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 1em
+}
+
+h2 {
+    fontsize: 18px;
+    margin-top: 2em;
+}
+
+h1 {
+    margin-bottom: 2em;
+}
+
+figure {
+    float: right;
+    width: 20em;
+    margin: 1em 0 1em 1em;
+    padding: 1em;
+    background-color: #ccc;
+    overflow: auto;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin-top: 1em;
+}
+
+p:first-child {
+    margin-top: 0;
+}
+
+code,
+kbd,
+samp,
+var {
+    display: inline;
+    font-family: "Courier New", Courier, monospace;
+    font-style: normal;
+    color: #000;
+    background: #efefef;
+    border: 1px solid #777;
+    padding: 0 0.2em;
+}
+
+code {
+    display: block;
+    white-space: pre-wrap;
+}
