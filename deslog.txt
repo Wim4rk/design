@@ -1,0 +1,19 @@
+[20-11-16 13:18]
+Skapar loggen
+
+[20-11-17 09:29]
+Skapade en backup
+
+[20-11-17 10:06]
+Jobbar igenom guiden npm, scss m.m. "$npm run lint" hänger datorn.
+
+[20-11-17 10:48]
+Auto alert från exemplet förstör min layout...
+
+[20-11-17 10:54]
+Nope, det är SASS som inte lirar med min gamla layout...
+
+
+
+
+
