@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Slab:wght@700&display=swap');
+
+* {
+    font-size: 18px;
+    line-height: 1.6em;
+    // letter-spacing: 1px;
+    font-family: 'Merriweather', Georgia, Times, 'Times New Roman', serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 1em;
+}
+
+// h1,
+// h2 {
+//     border-bottom: 1px solid #313030;
+// }
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 2em;
+}
+
+code,
+kbd,
+samp,
+var {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: #000;
+    background: #efefef;
+    border: 1px solid #777;
+    padding: 0 0.2em;
+}
+
+code {
+    display: block;
+    white-space: pre-wrap;
+}

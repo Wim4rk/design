@@ -1,7 +1,7 @@
 {
   "name": "themes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tests for dbwebb",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,12 +10,15 @@
     "style-min": "sass wim/scss/style.scss wim/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
-  "author": "",
+  "author": "Olov Wimark",
   "license": "ISC",
   "devDependencies": {
     "normalize.css": "^8.0.1",
     "sass": "^1.29.0",
     "stylelint": "^13.7.2",
     "stylelint-config-sass-guidelines": "^7.1.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1"
   }
 }

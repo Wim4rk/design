@@ -11,9 +11,6 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
-    line-height: 1.6em;
-    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
 }
 
 .site-header {
@@ -35,7 +32,7 @@ body {
 }
 
 .container {
-    max-width: 48em;
+    max-width: 42em;
     padding: 1em;
     margin: 0 auto;
 }
@@ -52,34 +49,6 @@ body {
     max-width: 48em;
     padding: 1em;
     margin: 0 auto;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    font-family: Frutiger, "Frutiger Linotype", Univers,
-                 Calibri, Helvetica, Arial, sans-serif;
-    margin-top: 1em;
-}
-
-h1,
-h2 {
-    border-bottom: 1px solid #313030;
-}
-
-h1 {
-    font-size: 24px;
-    margin-bottom: 1em
-}
-
-h2 {
-    fontsize: 18px;
-    margin-top: 2em;
-}
-
-h1 {
-    margin-bottom: 2em;
 }
 
 figure {
@@ -101,22 +70,4 @@ p {
 
 p:first-child {
     margin-top: 0;
-}
-
-code,
-kbd,
-samp,
-var {
-    display: inline;
-    font-family: "Courier New", Courier, monospace;
-    font-style: normal;
-    color: #000;
-    background: #efefef;
-    border: 1px solid #777;
-    padding: 0 0.2em;
-}
-
-code {
-    display: block;
-    white-space: pre-wrap;
 }
