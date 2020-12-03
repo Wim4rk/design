@@ -51,6 +51,10 @@ body {
     margin: 0 auto;
 }
 
+.social a {
+    text-decoration: none;
+}
+
 figure {
     float: right;
     width: 20em;

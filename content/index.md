@@ -1,5 +1,5 @@
 ---
-Title: Home
+Title: Hem
 Description: This is my index page.
 ---
 
@@ -20,7 +20,7 @@ minns rätt. Jag skapade också min första webbsida: en sida med dikter skrivna
 av min klass i "Skapande skrivande".</p>
 
 I början av detta sekel använde jag kod för att lösa problem i Microsoft
-Office. Då var det Visual Basic. Jag automatiserade databser i MS Access.
+Office. Då var det Visual Basic. Jag automatiserade databaser i MS Access.
 Väldigt kraftfulla verktyg där. Så småningom flyttades den uppgiften ut på
 nätet och jag löste samma problem med PHP och MySQL.
 
@@ -30,17 +30,10 @@ har jag kodat från grunden.
 
 ### Design
 
-Det finns de som säger att konsten är det avgörande gränssnittet mellan
-människa och dator. Den som har förmågan att utöva sin konst med hjälp
-av en dator har framtiden för sig.
+Jag har alltid sett mig som en back-en-snubbe. På gott och på ont så har jag
+skapat hemsidor med god funktionalitet, och okej design. Alltid läsbar, men
+utöver det... Okej.
 
-Jag är nu konstnärligt utbildad. Mest inom musik, förvisso, men jag har
-duvats i idéhistoria och där ingår alla konster. Måleriet är väl kanske
-den av de klassiska konsterna som ligger närmast web-design?
-
-Det är inte svårt för mig att se framför mig vad jag vill ha, men det är
-ganska svårt för mig att förverkliga det. Jag begränsar mig redan från
-början i sådana tankar som "innehållet först", "läsbarhet", och "i det
-enkla finns det sköna".
-
-Det som ligger mest för mig inom web-design är nog typografin.
+Skulle jag nu lyckas bryta den uppfattningen om mig själv så vore det ett stort
+steg. Jag _har_ uppfattningar om hur jag skulle vilja skapa hemsidor, men det
+faller oftast på att jag inte haft verktygen att förverkliga visionen.

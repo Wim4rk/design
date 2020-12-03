@@ -10,9 +10,15 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 // Typography:
 @import 'typography';
 
+//Report page
+@import 'report';
+
 
 .fas,
 .fab {
     color: grey !important;
-    // margin: 0 1em 0 0;
+}
+
+.social a {
+    text-decoration: none !important;
 }

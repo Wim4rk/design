@@ -13,7 +13,24 @@ Auto alert från exemplet förstör min layout...
 [20-11-17 10:54]
 Nope, det är SASS som inte lirar med min gamla layout...
 
+[20-11-17 11:05]
+Allt fungerar. Pushade med ny tag till Github.
+
+[20-11-17 12:48]
+Lägger till typografi och ikoner.
+
+[20-11-18 18:06]
+Jag har fullständigt saboterat min nav-meny.
+
+[20-11-18 19:01]
+Har lagat menyn, på bekostnad av allt annat i headern. Fortsätter restaurationen.
 
 
 
+[20-11-18 19:02]
+Har lagat menyn, på bekostnad av allt annat i headern. Fortsätter restautationen
 
+[20-11-19 12:19]
+Det är helt omöjligt att ändra färg på fontawesome-ikonerna.
+
+[20-11-19 14:34]

@@ -1,54 +1,27 @@
 ---
-Title: Kmom02
-Description: Kursmoment 2
+Title: Kmom03
+Description: Kursmoment 3
 ---
-# Kursmoment 2
+# Kursmoment 3
 
-Jag jobbar vidare med min portfolio-sida. I mitt stilla sinne undrar jag hur
-rättningen går till, jag kommer ju att bygga på sidan efter hand. Om mitt arbete
-rättas sent så kommer jag ju att ha hunnit gå vidare... Men jag förlitar mig på
-att det kommer att ordna sig.
+## Grid
 
-Arbetet går sakta. Det spelar ingen roll vilket ramverk vi har, vilken
-pre-processor vi använder eller hur vi hanterar bilder. Det är inte heller
-själva designen som tar tid, utan det är allt småplock i scss-filerna. Var ligger
-just den inställningen som verkar köra över det jag försöker att göra? Varför
-hjälper det inte ens att skriva <samp>!important</samp>? Vad är det som kan vara
-mer specifikt än det som jag specificerar här? Det tar en evig tid.
+Rutnätet har funnits så länge som vi skrivit böcker. Även gamla handskrifter
+från tiden innan bokpressen höll en strikt visuell form. Det är en uråldrig
+form som tilltalar människans förkärlek för symmetri, och som har finslipats
+genom hundratals år.
 
-## SASS
+Det faktum att vi fortfarande kämpar för att få den här grundläggande tekniken
+att fungera i våra webbläsare är ett tecken på hur tidigt i utvecklingen vi
+fortfarande är. Och hur lite vi har prioriterat de här frågorna. Visst talas
+det om hur olika det är att läsa text på en skärm kontra att läsa den i tryck,
+men det känns ofta som att lösningen har varit att bryta alla regler som vi
+samlat på oss genom dessa sekler.
 
-Jag har den goda turen att kunna jämföra mellan SASS och LESS. Så långt känns
-SASS enklare. Kanske har det att göra med Pica kontra Anax, men SASS skapar mer
-överskådliga CSS-filer.
-
-Hittills känner jag igen syntaxen, men vi får se om vi börjar jobba med några
-mix-in eller motsvarande, och hur det kommer att fungera då.
-
-Jag hade NPM installerat sedan tidigare, och en god förståelse för hur det
-fungerar.
-
-## Font Awesome
-
-Detta är ett väldigt användbart verktyg, och något jag behöver jobba mer med.
-Jag har nu lagt till tre ikoner i min footer.
-
-## Typografi
-
-Det är alltid lite besvärligt för mig när det börjar talas om typografi.
-Typograf är ett yrke som man inte lättvindligt skall avfärda. Det är inte alls
-så att man kan gissa sig fram till god typografi.
-
-Med detta sagt så har jag försökt att gissa mig fram till god typografi.
-
-Nu finns det någon slags oro kring att använda serifer på webbsidor. Det framhålls
-att det som fungerar bäst på skärmar är sans-serifer. Jag tar inte det för
-självklart. Dels läser jag själv på en Kindle, och skärmen på min hustrus senaste
-iPad är ganska annorlunda den som fanns på hennes första. Vad som fungerar bäst
-på en skärm ändrar sig efter hand.
-
-Även [SMACCS][3], som används som kursstöd har vågat bryta mot den här regeln.
-Deras val -- [Acuta][4] av Adobe -- har en mycket lätt serif, men den finns där.
+Jag har under några år kännt att det är enklare att jobba mer påtagligt. Det är
+inte svårt att skapa en design med en penna. Så länge steget är så långt mellan
+pennan och webben så kommer vi att få läsa och skapa enligt teknikens
+begränsningar.
 
 ### Brödtext
 
@@ -87,7 +60,7 @@ Jag har använt det i andra kurser, och i privata projekt. Det är ett smidigt s
 att installera de verktyg som behövs i en särskild utveckling, men antagligen inte
 i alla. Här kompilerar vi SASS, på andra håll kompilerar jag LESS.
 
-Package.json är lättläst 
+Package.json är lättläst
 
 __Hur kändes det att kompilera SASS till CSS, var det något du reflekterade över?__
 
@@ -110,8 +83,3 @@ då skall jag följa boken lite närmare.
 __Vilken är din TIL för detta kmom?__
 
 Design-kursen kommer att ta mer tid än vad jag hittills satt av.
-
-[1]: https://fonts.google.com/specimen/Merriweather
-[2]: https://fonts.google.com/specimen/Roboto+Slab
-[3]: http://smacss.com
-[4]: https://fonts.adobe.com/fonts/acuta

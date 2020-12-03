@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
     "style": "sass wim/scss/style.scss wim/css/style.css --no-source-map",
-    "style-min": "sass wim/scss/style.scss wim/css/style.min.css --no-source-map --style compressed"
+    "style-min": "sass wim/scss/style.scss wim/css/style.min.css --no-source-map --style compressed",
+    "watch": "sass wim/scss/style.scss wim/css/style.min.css --watch --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "Olov Wimark",

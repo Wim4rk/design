@@ -1,0 +1,56 @@
+.landingpage {
+    display:grid;
+    gap: 1em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+    margin-bottom: 1em;
+}
+
+.kmom-box {
+    padding: 1em;
+    border: 1px solid grey;
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a {
+        text-decoration: none;
+        h2 {
+            margin-top: 0;
+        }
+    }
+}
+
+kmom-box.project {
+    grid-column: 2;
+}
+
+.footer-container {
+    display: grid;
+    gap: 1em;
+}
+
+.copyright {
+    grid-column: 1;
+    grid-column: span 2;
+}
+
+.social {
+    grid-column: 3;
+}
+
+@media (max-width: 767px) {
+    .landing-page h1,
+    .landing-page.project,
+    .kmom-box {
+        grid-column: span 3;
+    }
+
+    .copyright,
+    .social {
+        grid-column: span 3;
+    }
+}
