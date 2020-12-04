@@ -4,6 +4,9 @@ Description: Kursmoment 3
 ---
 # Kursmoment 3
 
+Det hade varit mycket enklare att börja om med en ny sida ändå. Jag skulle
+gärna vilja ha samma grid-system rakt igenom.
+
 ## Grid
 
 Rutnätet har funnits så länge som vi skrivit böcker. Även gamla handskrifter

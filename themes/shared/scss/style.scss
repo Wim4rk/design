@@ -18,6 +18,9 @@ body {
     padding: 0 1em;
     max-width: 48em;
     margin: 0 auto;
+    .container{
+        margin: 0;
+    }
 }
 
 .siteheader a, .siteheader a:visited {
@@ -32,8 +35,6 @@ body {
 }
 
 .container {
-    max-width: 42em;
-    padding: 1em;
     margin: 0 auto;
 }
 
