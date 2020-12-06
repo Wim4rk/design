@@ -1,6 +1,7 @@
 ---
 Title: Kmom03
 Description: Kursmoment 3
+Template: kmom
 ---
 # Kursmoment 3
 
@@ -21,31 +22,37 @@ det om hur olika det är att läsa text på en skärm kontra att läsa den i try
 men det känns ofta som att lösningen har varit att bryta alla regler som vi
 samlat på oss genom dessa sekler.
 
-Jag har under några år kännt att det är enklare att jobba mer påtagligt. Det är
+Jag har under några år känt att det är enklare att jobba mer påtagligt. Det är
 inte svårt att skapa en design med en penna. Så länge steget är så långt mellan
 pennan och webben så kommer vi att få läsa och skapa enligt teknikens
 begränsningar.
 
-### Brödtext
+### Loggen
 
-Som typsnitt för min brödtext har jag därför valt [Merriweather][1] av Sorkin
-Type. Det är en ett seriftypsnitt som är framtaget för att vara trevligt att
-läsa på webben. Jag väljer _alltid_ typsnitt till brödtexten först. Det jag
-mest av allt är ute efter är läsbarheten.
+Jag behöver verkligen se över min header.
 
-### Rubriker
+Jag kommer behöva rensa upp i min SASS-kod. Den följer inte den struktur jag
+själv satt, än mindre någon av konventionerna.
 
-Rubriker i tryck använder ofta sans-serifer, men på nätet verkar det vara helt
-tvärt om. Jag kan inte förstå varför det blivit på det viset. Att det kan vara
-besvärligt att läsa serifer i brödtext kan jag acceptera, men varför man tvunget
-skall använda serifer i rubriken är ett mysterium.
+Det är fantastiskt enkelt att sortera sidor som hör ihop.
 
-Här valde jag verkligen att utmana mig. [Roboto Slab][2], av Christian
-Robertsson är en serif-font som används flitigt till rubriker, bland andra av
-Wordpress.
+Grid order. Något jag länge letat efter. Jag valde att lägga innehållsförteckningen
+sist i min html (twig), men genom att byta ordning kunde jag ändå lägga den till
+vänster i layouten. Det innebär att alternativa skärmläsare (braille) inte behöver
+läsa igenom hela menyn innan den når innehållet.
 
-Därmed har jag valt serifer både till rubriker och brödtext. Och jag vet inte
-om det är god typografi, men det är ett medvetet val.
+Det innebär också att menyn hamnar efter innehållet när jag går ner i en smalare
+layout, något som jag så ofta önskat att [dbwebb.se][1] också gjorde. Emellanåt
+finns där riktigt långa innehållsförteckningar att bläddra förbi varje gång jag
+går till nästa sida.
+
+Enligt specen så skall innehållsförteckningen ligga till vänster. I annat fall
+hade jag föredragit att ha den till höger. Då hade den helt enkelt fallit ner
+under huvudinnehållet när man går ner på mindre skärmar.
+
+Nu valde jag att flytta ner den, istället för att låta den försvinna. Det är ett
+mycket medvetet val. Jag bryter mot specen ordagrant, men funktionellt så
+överstiger jag produktionsmålet.
 
 ## Kort och koncist
 
@@ -86,3 +93,5 @@ då skall jag följa boken lite närmare.
 __Vilken är din TIL för detta kmom?__
 
 Design-kursen kommer att ta mer tid än vad jag hittills satt av.
+
+[1]: www.dbwebb.se

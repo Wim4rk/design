@@ -8,46 +8,22 @@ html, body {
     height: 100%;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
+// body {
+//     display: flex;
+//     flex-direction: column;
+// }
 
-.site-header {
-    flex: 0 0 auto;
-    padding: 0 1em;
-    max-width: 48em;
-    margin: 0 auto;
-    .container{
-        margin: 0;
-    }
-}
-
-.siteheader a, .siteheader a:visited {
+.siteheader a,
+.siteheader a:visited,
+.contant-aside a,
+.content-aside a:visitied {
     color: #2b2e30;
-}
-
-/* Main */
-
-.main {
-    flex: 1 0 auto;
-    padding: 2em;
-}
-
-.container {
-    margin: 0 auto;
 }
 
 /* Footer */
 
-.site-footer {
-    flex: 0 0 auto;
-    padding: 2em;
-}
-
 .site-footer a {
     color: #f0f0f0;
-    max-width: 48em;
     padding: 1em;
     margin: 0 auto;
 }
@@ -67,12 +43,4 @@ figure {
 
 img {
     width: 100%;
-}
-
-p {
-    margin-top: 1em;
-}
-
-p:first-child {
-    margin-top: 0;
 }

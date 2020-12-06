@@ -48,8 +48,20 @@
     </div>
 </header>
     <div class="main" id="main" role="main">
-        <div class="container">
-            {{ content }}
+        <div class="kmom-wrapper">
+            <div class="content-aside">
+                <h3>Innehåll</h3>
+                <ul>
+                    {% for page in pages("report") %}
+                    <li{% if page.id == current_page.id %} class="active" {% endif %}>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="kmom-container">
+                {{ content }}
+            </div>
         </div>
     </div>
 

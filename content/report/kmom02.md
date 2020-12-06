@@ -1,6 +1,7 @@
 ---
 Title: Kmom02
 Description: Kursmoment 2
+Template: kmom
 ---
 # Kursmoment 2
 
@@ -87,7 +88,7 @@ Jag har använt det i andra kurser, och i privata projekt. Det är ett smidigt s
 att installera de verktyg som behövs i en särskild utveckling, men antagligen inte
 i alla. Här kompilerar vi SASS, på andra håll kompilerar jag LESS.
 
-Package.json är lättläst 
+Package.json är lättläst
 
 __Hur kändes det att kompilera SASS till CSS, var det något du reflekterade över?__
 

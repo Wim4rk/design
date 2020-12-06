@@ -1,3 +1,49 @@
+body {
+    max-width: $site-max-width;
+    margin: 0 auto;
+}
+
+.site-header {
+    flex: 0 0 auto;
+    padding: 0 1em;
+    margin: 0 auto;
+    .container {
+        margin: 0;
+    }
+}
+
+.main {
+    margin: 0 1em;
+}
+
+.container {
+    margin: 0 1em 0 1em;
+}
+
+.footer {
+    padding: 2em 2em .5em 2em;
+    display: grid;
+    gap: 1em;
+}
+
+.copyright {
+    grid-column: 1;
+    grid-column: span 2;
+    display: flex;
+    flex-direction: row;
+    // align-items: left;
+}
+
+.social {
+    grid-column: 3;
+    justify-self: end;
+    // display: flex;
+    // flex-direction: row;
+    .fab {
+        margin: 0 1rem 0 0
+    }
+}
+
 .auto {
     margin: auto;
     text-align: center;
