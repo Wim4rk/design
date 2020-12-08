@@ -5,6 +5,8 @@ Template: kmom
 ---
 # Kursmoment 3
 
+Välkommen att läsa min presentation [online][1].
+
 Rutnätet har funnits så länge som vi skrivit böcker. Även gamla handskrifter
 från tiden innan bokpressen höll en strikt visuell form. Det är en uråldrig
 form som tilltalar människans förkärlek för symmetri, och som har finslipats
@@ -25,12 +27,8 @@ inspiration på många sajter.
 
 Det kan vara svårt, tycker jag, att blanda flexbox med grid, men uppenbarligen
 så går det. Nu har jag bara kvar flexbox i min header, redovisningarna styrs
-upp med hjälp av ett grid. Min första-sida och min om-sida är ännu så länge
+upp med hjälp av ett grid. Min förstasida och min om-sida är ännu så länge
 bara några _div_, men jag har planer för dem.
-
-Över lag har jag använt flex-box alldeles för lite. Jag liksom hoppade över det.
-När jag slutade att kod stylade vi divvar, och semantisk html var precis
-runt hörnet. Nu behöver jag komma ikapp där.
 
 Egentligen förstår jag inte grid mer än jag förstår flex-box, men jag har lättare
 att visualisera i form av rutnät &ndash; kanske längtar jag tillbaks till att
@@ -38,14 +36,15 @@ designa i tabeller? (Antagligen inte...)
 
 ## Uppgiften
 
-Under arbetet med min redovisningssida fann jag äntligen något jag länge letat
-efter; _grid order_. Jag skulle kunna lägga innehållsförteckningen efter innehållet
+Under arbetet med min redovisnings&shy;sida fann jag äntligen något jag länge letat
+efter; _grid order_. Jag skulle kunna lägga inne&shy;hålls&shy;förteckningen efter
+inne&shy;hållet
 i min html (.twig), och ändå presentera den till vänster på skärmen. Alternativa
-skärmläsare som presenterar innehållet i braille eller talsyntes behöver inte
+skärm&shy;läsare som presenterar innehållet i braille eller talsyntes behöver inte
 traggla igenom innehållsförteckningen först på varje sida.
 
 Det spökade dock till det med tab-ordningen och buggade ordentligt om man försökte
-markera text, så jag övergav försöket. Jag lade innehållsförteckningen först i
+markera text, så jag övergav projektet. Jag lade innehålls&shy;förteckningen först i
 html-dokumentet.
 
 Enligt specen så skall innehållsförteckningen ligga till vänster. I annat fall
@@ -56,7 +55,7 @@ Jag behöver däremot inte gömma den helt på en mindre skärm. Jag kan flytta 
 den till slutet av sidan med _grid-order_. Den finns till hands, och användaren
 behöver ändå inte scrolla femton centimeter innan själva innehållet.
 
-## Refactoring
+### Refactoring
 
 Jag har börjat inse att jag kommer att slipa vidare på allting under kursens
 gång. Det är ingen mening att ta något längre än specen. Till exempel så har
@@ -65,7 +64,7 @@ typografi och färger framgent.
 
 När jag fick griddet på plats ville jag försöka att ta min typografi ett steg längre.
 Jag skapade en _mixin_ som räknar ut rätt radhöjd utifrån font-size för att
-närma sig en multipel av det magiska talet.
+närma sig en multipel av "det magiska talet".
 
 För att få det riktigt bra skulle jag vilja lägga till ett horisontellt
 grid &ndash; rader för att nivellera radhöjder mellan olika element. Vi hade en
@@ -74,15 +73,22 @@ fungerar tillsammans med SASS.
 
 ## Skapa och skriva
 
-Ibland ser jag för mycket på den här kursen ur en skribents perspektiv. Jag glömmer
-ibland är att _jag_ skall vara länken mellan den som skapar och publikationen på
-nätet. _Jag_ skall göra det enkelt att publicera. Alla de betänkligheter som jag
+Ibland ser jag för mycket på den här kursen ur en skribents per&shy;spektiv. Jag glömmer
+ibland är att _jag_ skall vara länken mellan den som skapar och publik&shy;ationen på
+nätet. _Jag_ skall göra det enkelt att publicera. Alla de betänklig&shy;heter som jag
 har är det upp till mig att lösa. Jag ska inte bekymra mig så mycket för innehåll
 som jag gör.
 
 Målbilden är att uppdragsgivaren kan använda sin sajt utan att behöva tänka på
 allt det som jag tänker på just nu. Sajten skall vara ett verktyg, inte ett
 problem.
+
+## Linting
+
+Jag får igenom all min SASS-kod i lintern, utom den som rör den responsiva
+menyn. Den är dock skapad som någon slags Pico-mall, så jag vet inte riktigt
+hur jag skall gå vidare med den. Jag behöver verkligen lära mig att skapa egna
+menyer.
 
 ## Kort och koncist
 
@@ -98,8 +104,7 @@ Det är något jag saknar den här gången, och jag har försökt hitta motsvara
 moduler för SASS. Utan större resultat.
 
 Jag försöker ändå att följa reglerna för lodrät och vågrät rytm. Man får titta
-på sin skärm i en brant vinkel för att försöka se om raderna ligger intill
-varandra.
+på sin skärm i en brant vinkel för att försöka se om raderna ligger i våg.
 
 __Har du försökt dela upp din SASS-kod i olika moduler? Kanske har du skapat en
 ny modul som är din layout?__
@@ -120,3 +125,5 @@ __Vilken är din TIL för detta kmom?__
 
 På en bra hemsida behöver man inte tänka så mycket. Materialet finns på rätt
 plats, och den är enkel att uppdatera.
+
+[1]: http://www.student.bth.se/~olai19/dbwebb-kurser/design/me/portfolio/report/kmom03
