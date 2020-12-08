@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Slab:wght@700&display=swap');
 
-* {
-    font-size: 18px;
-    line-height: 1.6em;
+body {
+    font-size: $fontsize-body;
+    line-height: $lineheight;
     // letter-spacing: 1px;
     font-family: 'Merriweather', Georgia, Times, 'Times New Roman', serif;
 }
@@ -12,27 +12,29 @@ h2,
 h3,
 h4 {
     font-family: 'Roboto Slab', serif;
-    margin-top: 1em;
+    // margin-top: 1em;
 }
 
 h1 {
-    font-size: 24px;
-    // margin-bottom: 1em;
-    margin-bottom: 1.4em;
+    @include fontSize(2.3em);
 }
 
 h2 {
-    font-size: 18px;
-    margin-top: 1.6em;
+    @include fontSize(1.6em);
+}
+
+h3 {
+    @include fontSize(1.2em)
 }
 
 p {
+    @include fontSize(1em);
     margin-top: 1em;
 }
 
-p:first-child {
-    margin-top: 0;
-}
+// p:first-child {
+//     margin-top: 0;
+// }
 
 ul {
     list-style-position: inside;
@@ -40,7 +42,7 @@ ul {
 }
 
 li {
-    margin-top: .5em;
+    // margin-top: .5em;
 }
 
 li p {

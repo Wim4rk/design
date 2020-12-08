@@ -6457,49 +6457,20 @@ template {
   display: none;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 html, body {
   height: 100%;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.site-header {
-  flex: 0 0 auto;
-  padding: 0 1em;
-  max-width: 48em;
-  margin: 0 auto;
-}
-.site-header .container {
-  margin: 0;
-}
-
-.siteheader a, .siteheader a:visited {
+.siteheader a,
+.siteheader a:visited,
+.contant-aside a,
+.content-aside a:visitied {
   color: #2b2e30;
-}
-
-/* Main */
-.main {
-  flex: 1 0 auto;
-  padding: 2em;
-}
-
-.container {
-  margin: 0 auto;
 }
 
 /* Footer */
 .site-footer a {
   color: #f0f0f0;
-  max-width: 48em;
   padding: 1em;
   margin: 0 auto;
 }
@@ -6519,14 +6490,6 @@ figure {
 
 img {
   width: 100%;
-}
-
-p {
-  margin-top: 1em;
-}
-
-p:first-child {
-  margin-top: 0;
 }
 
 .hidden {
@@ -6611,17 +6574,26 @@ p:first-child {
     cursor: pointer;
   }
 }
+body {
+  max-width: 48em;
+  margin: 0 auto;
+}
+
+.site-header {
+  flex: 0 0 auto;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+.site-header .container {
+  margin: 0;
+}
+
 .main {
-  display: grid;
-  grid-template-columns: repeat(32);
+  margin: 0 1em;
 }
 
-.kmom-container {
-  grid-column: 1/24;
-}
-
-.content-aside {
-  grid-column: 25/32;
+.container {
+  margin: 0 1em 0 1em;
 }
 
 .footer {
@@ -6657,9 +6629,16 @@ p:first-child {
   width: 40em;
 }
 
-* {
-  font-size: 18px;
-  line-height: 1.6em;
+@media (max-width: 767px) {
+  .copyright,
+.social {
+    grid-column: span 3;
+    justify-self: end;
+  }
+}
+body {
+  font-size: 16px;
+  line-height: 1.75;
   font-family: "Merriweather", Georgia, Times, "Times New Roman", serif;
 }
 
@@ -6668,18 +6647,36 @@ h2,
 h3,
 h4 {
   font-family: "Roboto Slab", serif;
-  margin-top: 1em;
 }
 
 h1 {
-  font-size: 24px;
-  margin-bottom: 1em;
-  margin-bottom: 2em;
+  font-size: 2.3em;
+  line-height: 1.5217391304;
 }
 
 h2 {
-  font-size: 18px;
-  margin-top: 2em;
+  font-size: 1.6em;
+  line-height: 1.09375;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.4583333333;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.75;
+  margin-top: 1em;
+}
+
+ul {
+  list-style-position: inside;
+  margin-left: 0.5em;
+}
+
+li p {
+  margin-left: 1em;
 }
 
 code,
@@ -6708,7 +6705,35 @@ code {
 .landingpage h1 {
   grid-column: span 3;
   justify-self: center;
-  margin-bottom: 1em;
+}
+
+.kmom-wrapper {
+  display: grid;
+  grid-template-columns: 8em 4em auto;
+}
+
+.kmom-container {
+  grid-column: 3;
+}
+
+.content-aside {
+  grid-column: 1;
+}
+.content-aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.content-aside ul li {
+  display: block;
+  padding: 0;
+  text-decoration: none;
+}
+.content-aside a {
+  text-decoration: none;
+}
+.content-aside a:hover {
+  text-decoration: underline;
 }
 
 .kmom-box {
@@ -6734,7 +6759,7 @@ code {
   grid-column: 1;
 }
 .kmom-box .arrow {
-  padding: 0 1em 1em 0;
+  padding: 1em 1em 1em 0;
   grid-column: 2;
 }
 
@@ -6756,16 +6781,25 @@ code {
     grid-column: span 3;
   }
 
-  .copyright,
-.social {
+  .kmom-wrapper {
+    grid-template-columns: 33% 33% auto;
+  }
+
+  .kmom-container {
+    order: 1;
     grid-column: span 3;
+  }
+
+  .content-aside {
+    order: 2;
+    grid-column: span 3;
+  }
+  .content-aside ul li {
+    display: block;
+    margin: 0;
   }
 }
 .fas,
 .fab {
   color: grey !important;
-}
-
-.social a {
-  text-decoration: none !important;
 }

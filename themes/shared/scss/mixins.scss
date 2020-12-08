@@ -1,0 +1,22 @@
+// Functions
+
+@function strip-unit($value) {
+    @if type-of($value) == 'number' and not unitless($value) {
+        @return $value / ($value * 0 + 1);
+    }
+
+    @return $value;
+}
+
+@function line-height() {
+    $ret: ceil(strip-unit($magic-number) / strip-unit($fontsize-body));
+    @return $ret;
+}
+
+
+// Mixins
+
+@mixin fontSize($fontSize) {
+    font-size: $fontSize;
+    line-height: $lineheight / strip-unit($fontSize) * ceil(strip-unit($fontSize) / $lineheight)
+}

@@ -1,5 +1,9 @@
 $site-max-width: 48em;
 
+$magic-number: 28px;
+$fontsize-body: 16px;
+$lineheight: $magic-number / $fontsize-body;
+
 $base-color: #00f !default; //blue
 $border-dark: rgba($base-color, 0.88) !default;
 $alert-box-size: 40em !default;
