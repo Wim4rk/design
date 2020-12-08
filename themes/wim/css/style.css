@@ -6457,8 +6457,10 @@ template {
   display: none;
 }
 
-html, body {
+html,
+body {
   height: 100%;
+  background-color: rgba(255, 255, 204, 0.6);
 }
 
 .siteheader a,
@@ -6470,9 +6472,13 @@ html, body {
 
 /* Footer */
 .site-footer a {
-  color: #f0f0f0;
+  color: #ccc;
   padding: 1em;
   margin: 0 auto;
+}
+
+.copyright {
+  color: #ccc;
 }
 
 .social a {
@@ -6593,11 +6599,11 @@ body {
 }
 
 .container {
-  margin: 0 1em 0 1em;
+  margin: 0 1em;
 }
 
 .footer {
-  padding: 2em 2em 0.5em 2em;
+  padding: 2em 2em 0.5em;
   display: grid;
   gap: 1em;
 }
@@ -6633,7 +6639,7 @@ body {
   .copyright,
 .social {
     grid-column: span 3;
-    justify-self: end;
+    justify-self: center;
   }
 }
 body {
@@ -6737,22 +6743,28 @@ code {
 }
 
 .kmom-box {
-  border: 1px solid grey;
   grid-column: span 1;
+  border: 1px solid #0097df;
 }
 .kmom-box .kb-content {
   display: grid;
 }
 .kmom-box a {
   text-decoration: none;
+  color: #fff;
 }
 .kmom-box a h2 {
-  margin-top: 0;
+  margin: 0;
+  line-height: 1em;
+}
+.kmom-box a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 .kmom-box .kmom-header {
-  padding: 1em;
   grid-column: span 2;
-  background-color: grey;
+  background-color: #0097df;
+  padding: 1em;
 }
 .kmom-box .condenced {
   padding: 1em 0 1em 1em;
@@ -6765,13 +6777,6 @@ code {
 
 .project {
   grid-column: span 3;
-}
-.project .kmom-header {
-  padding: 1em;
-  background-color: grey;
-}
-.project .arrow {
-  text-align: right;
 }
 
 @media (max-width: 767px) {
@@ -6801,5 +6806,5 @@ code {
 }
 .fas,
 .fab {
-  color: grey !important;
+  color: #ccc !important;
 }

@@ -27,6 +27,14 @@ inte svårt att skapa en design med en penna. Så länge steget är så långt m
 pennan och webben så kommer vi att få läsa och skapa enligt teknikens
 begränsningar.
 
+## Refactoring
+
+När griddet var på plats ville jag försöka att ta min typografi ett steg längre. jag skapade en _mixin_ som räknar ut rätt radhöjd utifrån font-size för att närma sig en multipel av det magiska talet.
+
+För att få det riktigt bra skulle jag vilja lägga till ett horisontellt grid &ndash; rader för att nivellera radhöjder mellan olika element.
+
+Jag har börjat inse att jag kommer att slipa vidare på allting under kursens gång. Det är ingen mening att ta något längre än specen. Till exempel så har jag klarat kravet för min _landing-site_, men jag kommer jobba vidare med typografi och färger framgent.
+
 ### Loggen
 
 Jag behöver verkligen se över min header.

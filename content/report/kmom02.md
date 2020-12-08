@@ -49,7 +49,7 @@ iPad är ganska annorlunda den som fanns på hennes första. Vad som fungerar b�
 på en skärm ändrar sig efter hand.
 
 Även [SMACCS][3], som används som kursstöd har vågat bryta mot den här regeln.
-Deras val -- [Acuta][4] av Adobe -- har en mycket lätt serif, men den finns där.
+Deras val &ndash; [Acuta][4] av Adobe &ndash; har en mycket lätt serif, men den finns där.
 
 ### Brödtext
 
@@ -80,7 +80,7 @@ Sass är smidigt än så länge. Nu när vi har börjat använda Font Awesome s�
 de kompilerade css-filerna börjat att växa till sig rejält. Från under hundra rader
 till gott och väl över 5000. Det känns inte rätt för mig, det är mycket kod där
 som jag inte använder. Jag kanske inte behöver skriva den, men jag behöver lagra,
-och -- inte minst -- servera den till användaren.
+och &ndash; inte minst &ndash; servera den till användaren.
 
 __Är du bekant med Node, npm eller npm scripts (t.ex. npm run lint) sedan tidigare? Vad anser du om det?__
 

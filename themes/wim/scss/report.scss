@@ -1,5 +1,5 @@
 .landingpage {
-    display:grid;
+    display: grid;
     gap: 1em;
 }
 
@@ -22,19 +22,23 @@
 .content-aside {
     // order: 1;
     grid-column: 1;
+
     ul {
         list-style: none;
         margin: 0;
         padding: 0;
     }
+
     ul li {
         display: block;
         padding: 0;
         text-decoration: none;
     }
+
     a {
         text-decoration: none;
     }
+
     a:hover {
         text-decoration: underline;
     }
@@ -42,26 +46,39 @@
 
 .kmom-box {
     // padding: 1em;
-    border: 1px solid grey;
     grid-column: span 1;
+    border: 1px solid  $first-contrast;
+
     .kb-content {
         display: grid;
     }
+
+    h2 {
+        margin: 0;
+        line-height: 1em;
+    }
+
     a {
         text-decoration: none;
-        h2 {
-            margin-top: 0;
-        }
+        color: #fff;
     }
+
+    a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
     .kmom-header {
-        padding: 1em;
         grid-column: span 2;
-        background-color: grey;
+        background-color: $first-contrast;
+        padding: 1em;
     }
+
     .condenced {
         padding: 1em 0 1em 1em;
         grid-column: 1;
     }
+
     .arrow {
         padding: 1em 1em 1em 0;
         grid-column: 2;
@@ -70,13 +87,6 @@
 
 .project {
     grid-column: span 3;
-    .kmom-header{
-        padding: 1em;
-        background-color: grey;
-    }
-    .arrow{
-        text-align: right;
-    }
 }
 
 @media (max-width: 767px) {
@@ -98,6 +108,7 @@
     .content-aside {
         order: 2;
         grid-column: span 3;
+
         ul li {
             display: block;
             margin: 0;
