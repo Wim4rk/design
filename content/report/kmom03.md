@@ -5,11 +5,6 @@ Template: kmom
 ---
 # Kursmoment 3
 
-Det hade varit mycket enklare att börja om med en ny sida ändå. Jag skulle
-gärna vilja ha samma grid-system rakt igenom.
-
-## Grid
-
 Rutnätet har funnits så länge som vi skrivit böcker. Även gamla handskrifter
 från tiden innan bokpressen höll en strikt visuell form. Det är en uråldrig
 form som tilltalar människans förkärlek för symmetri, och som har finslipats
@@ -22,84 +17,106 @@ det om hur olika det är att läsa text på en skärm kontra att läsa den i try
 men det känns ofta som att lösningen har varit att bryta alla regler som vi
 samlat på oss genom dessa sekler.
 
-Jag har under några år känt att det är enklare att jobba mer påtagligt. Det är
-inte svårt att skapa en design med en penna. Så länge steget är så långt mellan
-pennan och webben så kommer vi att få läsa och skapa enligt teknikens
-begränsningar.
+## Grid och flexbox
 
-## Refactoring
+Jag har ägnat ganska mycket tid åt att läsa om- och experimentera med grid den
+här gången. Det finns många bra instruktioner att läsa på nätet och mycket fin
+inspiration på många sajter.
 
-När griddet var på plats ville jag försöka att ta min typografi ett steg längre. jag skapade en _mixin_ som räknar ut rätt radhöjd utifrån font-size för att närma sig en multipel av det magiska talet.
+Det kan vara svårt, tycker jag, att blanda flexbox med grid, men uppenbarligen
+så går det. Nu har jag bara kvar flexbox i min header, redovisningarna styrs
+upp med hjälp av ett grid. Min första-sida och min om-sida är ännu så länge
+bara några _div_, men jag har planer för dem.
 
-För att få det riktigt bra skulle jag vilja lägga till ett horisontellt grid &ndash; rader för att nivellera radhöjder mellan olika element.
+Över lag har jag använt flex-box alldeles för lite. Jag liksom hoppade över det.
+När jag slutade att kod stylade vi divvar, och semantisk html var precis
+runt hörnet. Nu behöver jag komma ikapp där.
 
-Jag har börjat inse att jag kommer att slipa vidare på allting under kursens gång. Det är ingen mening att ta något längre än specen. Till exempel så har jag klarat kravet för min _landing-site_, men jag kommer jobba vidare med typografi och färger framgent.
+Egentligen förstår jag inte grid mer än jag förstår flex-box, men jag har lättare
+att visualisera i form av rutnät &ndash; kanske längtar jag tillbaks till att
+designa i tabeller? (Antagligen inte...)
 
-### Loggen
+## Uppgiften
 
-Jag behöver verkligen se över min header.
+Under arbetet med min redovisningssida fann jag äntligen något jag länge letat
+efter; _grid order_. Jag skulle kunna lägga innehållsförteckningen efter innehållet
+i min html (.twig), och ändå presentera den till vänster på skärmen. Alternativa
+skärmläsare som presenterar innehållet i braille eller talsyntes behöver inte
+traggla igenom innehållsförteckningen först på varje sida.
 
-Jag kommer behöva rensa upp i min SASS-kod. Den följer inte den struktur jag
-själv satt, än mindre någon av konventionerna.
-
-Det är fantastiskt enkelt att sortera sidor som hör ihop.
-
-Grid order. Något jag länge letat efter. Jag valde att lägga innehållsförteckningen
-sist i min html (twig), men genom att byta ordning kunde jag ändå lägga den till
-vänster i layouten. Det innebär att alternativa skärmläsare (braille) inte behöver
-läsa igenom hela menyn innan den når innehållet.
-
-Det innebär också att menyn hamnar efter innehållet när jag går ner i en smalare
-layout, något som jag så ofta önskat att [dbwebb.se][1] också gjorde. Emellanåt
-finns där riktigt långa innehållsförteckningar att bläddra förbi varje gång jag
-går till nästa sida.
+Det spökade dock till det med tab-ordningen och buggade ordentligt om man försökte
+markera text, så jag övergav försöket. Jag lade innehållsförteckningen först i
+html-dokumentet.
 
 Enligt specen så skall innehållsförteckningen ligga till vänster. I annat fall
 hade jag föredragit att ha den till höger. Då hade den helt enkelt fallit ner
 under huvudinnehållet när man går ner på mindre skärmar.
 
-Nu valde jag att flytta ner den, istället för att låta den försvinna. Det är ett
-mycket medvetet val. Jag bryter mot specen ordagrant, men funktionellt så
-överstiger jag produktionsmålet.
+Jag behöver däremot inte gömma den helt på en mindre skärm. Jag kan flytta ner
+den till slutet av sidan med _grid-order_. Den finns till hands, och användaren
+behöver ändå inte scrolla femton centimeter innan själva innehållet.
+
+## Refactoring
+
+Jag har börjat inse att jag kommer att slipa vidare på allting under kursens
+gång. Det är ingen mening att ta något längre än specen. Till exempel så har
+jag klarat kravet för min _landing-site_, men jag kommer jobba vidare med
+typografi och färger framgent.
+
+När jag fick griddet på plats ville jag försöka att ta min typografi ett steg längre.
+Jag skapade en _mixin_ som räknar ut rätt radhöjd utifrån font-size för att
+närma sig en multipel av det magiska talet.
+
+För att få det riktigt bra skulle jag vilja lägga till ett horisontellt
+grid &ndash; rader för att nivellera radhöjder mellan olika element. Vi hade en
+bra modell i förra versionen av den här kursen. Det borde finnas något som
+fungerar tillsammans med SASS.
+
+## Skapa och skriva
+
+Ibland ser jag för mycket på den här kursen ur en skribents perspektiv. Jag glömmer
+ibland är att _jag_ skall vara länken mellan den som skapar och publikationen på
+nätet. _Jag_ skall göra det enkelt att publicera. Alla de betänkligheter som jag
+har är det upp till mig att lösa. Jag ska inte bekymra mig så mycket för innehåll
+som jag gör.
+
+Målbilden är att uppdragsgivaren kan använda sin sajt utan att behöva tänka på
+allt det som jag tänker på just nu. Sajten skall vara ett verktyg, inte ett
+problem.
 
 ## Kort och koncist
 
-__Vad tycker du om SASS än så länge?__
+__Hur har det gått att jobba med CSS-Grid/Flexbox?__
 
-Sass är smidigt än så länge. Nu när vi har börjat använda Font Awesome så har
-de kompilerade css-filerna börjat att växa till sig rejält. Från under hundra rader
-till gott och väl över 5000. Det känns inte rätt för mig, det är mycket kod där
-som jag inte använder. Jag kanske inte behöver skriva den, men jag behöver lagra,
-och -- inte minst -- servera den till användaren.
+Det har gått alldeles utmärkt.
 
-__Är du bekant med Node, npm eller npm scripts (t.ex. npm run lint) sedan tidigare? Vad anser du om det?__
+__Har du jobbat med dessa tekniker sedan tidigare? Vad anser du om det?__
 
-Jag har använt det i andra kurser, och i privata projekt. Det är ett smidigt sätt
-att installera de verktyg som behövs i en särskild utveckling, men antagligen inte
-i alla. Här kompilerar vi SASS, på andra håll kompilerar jag LESS.
+Jag har gjort stora delar av den här kursen i föregående version. Den gången
+jobbade vi med @desinax, vilket gav oss synliga rutnät både vågrätt och lodrätt.
+Det är något jag saknar den här gången, och jag har försökt hitta motsvarande
+moduler för SASS. Utan större resultat.
 
-Package.json är lättläst
+Jag försöker ändå att följa reglerna för lodrät och vågrät rytm. Man får titta
+på sin skärm i en brant vinkel för att försöka se om raderna ligger intill
+varandra.
 
-__Hur kändes det att kompilera SASS till CSS, var det något du reflekterade över?__
+__Har du försökt dela upp din SASS-kod i olika moduler? Kanske har du skapat en
+ny modul som är din layout?__
 
-Nej, det var ganska rättframt. Jag använder _make_ i privata projekt, bland annat
-när jag kompilerar C-kod för att koda mikrochipp.
+Jag har börjat städa upp i min SASS-kod. Jag försöker att lägga färger med
+färger, typografi med typografi och ha en egen fil för layout.
 
-__Kommentera ditt tema, hur kan man beskriva dess design och hade du några planer på “design” när du byggde ditt tema?__
+Just nu går gemensamma- och tema-specifika regler för mycket i varandra. Jag har
+mer att städa upp.
 
-Jag anar lite hur den här kursen kommer att fortskrida. Inom kort kommer vi att
-börja jobba med _grid_. Jag väljer att hålla allt så enkelt som möjligt, så att
-jag inte behöver ändra så mycket när vi når dit.
+__Valde du att göra om din sidas layout eller nöjde du dig med report sidan?__
 
-__Valde du att dela upp din kod? Vilka uppdelningar valde du att göra?__
-
-Jag valde att dela upp min kod, men jag har inte följt rekommendationerna. Just
-nu gör jag skillnad på layout, typografi, nav-meny och variabler för färger m.m.
-Det blir genast uppenbart att jag behöver städa igenom mina filer framgent, och
-då skall jag följa boken lite närmare.
+Jag valde att bara göra om report-sidan. Jag har en plan för förstasidan som jag
+vill implementera när vi talar om färger. Jag råkade dock göra extrauppgiften
+genom att använda grid även i footern.
 
 __Vilken är din TIL för detta kmom?__
 
-Design-kursen kommer att ta mer tid än vad jag hittills satt av.
-
-[1]: www.dbwebb.se
+På en bra hemsida behöver man inte tänka så mycket. Materialet finns på rätt
+plats, och den är enkel att uppdatera.
