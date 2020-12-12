@@ -1,0 +1,17 @@
+$html-bg-color: #ccc;
+$body-bg-color: rgba(255, 255, 204, 0.6);
+
+$first-contrast: #0097df;
+$second-contrast: #ea363b;
+$greyed: #ccc;
+
+//Links
+$link-color: #2b2e30;
+$link-visited: #2b2e30;
+$link-hover: #2b2e30;
+$link-selected: #2b2e30;
+
+.fas,
+.fab {
+    color: $greyed !important;
+}

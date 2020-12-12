@@ -11,7 +11,7 @@ Description: This is my index page.
 </figure>
 
 Jag har rasslat kod så länge jag kan minnas. Jag började med en Spectravideo,
-och på den var det ganska _hands on_. Filhantering tog en evighet -- särskilt
+och på den var det ganska _hands on_. Filhantering tog en evighet &ndash; särskilt
 om man använde bandspelaren, och vissa program kunde man bara köpa som kod,
 tryckt på papper.
 

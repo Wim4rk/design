@@ -11,10 +11,10 @@
     "style": "npm run style-light && npm run style-dark",
     "style-min": "npm run style-light-min && npm run style-dark-min",
     "style-dark": "sass wim/scss/style-dark.scss wim/css/style-dark.css --no-source-map",
-    "style-dark-min": "sass wim/scss/style-dark.scss wim/css/style-dark-min.css --no-source-map --style compressed",
+    "style-dark-min": "sass wim/scss/style-dark.scss wim/css/style-dark.min.css --no-source-map --style compressed",
     "style-light-min": "sass wim/scss/style-dark.scss wim/css/style-dark.min.css --no-source-map --style compressed",
     "style-light": "sass wim/scss/style.scss wim/css/style.css --no-source-map",
-    "style-light-min": "sass wim/scss/style.scss wim/css/style.min.css --no-source-map --style compressed",
+    "style-light-min": "sass wim/scss/style.scss wim/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "Olov Wimark",

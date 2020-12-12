@@ -45,7 +45,7 @@ if (isset($_GET["action"])) {
         }
 
         $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
-        $url = preg_replace("/.index.php\//", "", $url);
+        $url = preg_replace("/index.php\//", "", $url);
         header("Location: $url");
     }
 
