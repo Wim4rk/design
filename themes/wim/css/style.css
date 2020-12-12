@@ -6619,7 +6619,9 @@ body {
   grid-column: 3;
   justify-self: end;
 }
-.social .fab {
+.social .fab,
+.social .fas {
+  text-size: 2em;
   margin: 0 1rem 0 0;
 }
 
@@ -6749,13 +6751,13 @@ code {
 .kmom-box .kb-content {
   display: grid;
 }
+.kmom-box h2 {
+  margin: 0;
+  line-height: 1em;
+}
 .kmom-box a {
   text-decoration: none;
   color: #fff;
-}
-.kmom-box a h2 {
-  margin: 0;
-  line-height: 1em;
 }
 .kmom-box a:hover {
   color: #fff;

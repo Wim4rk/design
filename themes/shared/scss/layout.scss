@@ -37,9 +37,8 @@ body {
 .social {
     grid-column: 3;
     justify-self: end;
-    // display: flex;
-    // flex-direction: row;
-    .fab {
+    .fab,
+    .fas {
         margin: 0 1rem 0 0;
     }
 }
