@@ -19,6 +19,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import '../../shared/scss/base';
 
+@import 'report';
+//Report page
+
 // Adapt the typography
 $font-family:        Inconsolata, "Courier New", Courier, monospace;
 $header-font-family: Frutiger, "Frutiger Linotype", Univers, Calibri,
@@ -32,11 +35,11 @@ $code-font-family:   "Courier New", Courier, monospace;
 // Set the colours
 $html-bg-color: #000;
 $body-bg-color: #000;
-$body-color: rgba(150, 255, 150, 0.8);
+$body-color: rgba(100, 255, 100, 1);
 $line-color: $body-color;
-$code-color: #f00;
+$code-color: #000;
 $code-bg-color: #ccc;
-$code-border-color: #00f;
+$code-border-color: $body-color;
 
  /* unvisited link */
 $link-color: $body-color;
@@ -45,22 +48,30 @@ $link-color: $body-color;
 $link-visited: $body-color;
 
 /* mouse over link */
-$link-hover: #fff;
+$link-hover: $greyed;
 
 /* selected link */
-$link-selected: #00f;
+$link-selected: #fff;
+
+$kmom-box-color: rgba(100, 255, 100, 0.5);
 
 // Graphics
 body {
+    background-color: $body-bg-color;
+    // background-image: radial-gradient(
+    //     black,
+    //     rgba(0, 150, 0, 0.4) 220%
+    // );
     background-image: radial-gradient(
-        rgba(0, 150, 0, 0.2), black 120%
+    rgba(0, 150, 0, 0.3),
+    black 120%
     );
     // height: 100vh;
     margin: 0;
     // overflow: hidden;
     text-shadow: 0 0 3px #c8c8c8;
     background-attachment: fixed;
-    &::after {
+    &:after {
         content: "";
         // position: absolute;
         position: fixed;
@@ -84,10 +95,17 @@ body {
 
 a {
     text-decoration: underline;
+    color: $body-color;
 }
 
 a:hover {
+    color: $link-hover;
     text-shadow: none;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
 }
 
 code,
@@ -105,10 +123,62 @@ var {
     text-shadow: none;
 }
 
+figure img,
+.flash-region img {
+    filter: grayscale(100%);
+    min-height: 100%;
+    background-size: cover;
+    background-position-x: center;
+}
+
+figcaption {
+    font-style: normal;
+    letter-spacing: .5em;
+}
+
+img {
+    width: 100%;
+    opacity: 0.4;
+}
+
+.site-footer a {
+    color: $greyed;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.copyright {
+    color: $greyed;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.kmom-box {
+    // padding: 1em;
+    grid-column: span 1;
+    border: 3px dashed  $kmom-box-color;
+
+    a {
+        color: $body-color;
+    }
+
+    a:hover {
+        color: $link-hover;
+    }
+
+    .kmom-header {
+        background-color: transparent;
+        border-bottom: 3px dashed $kmom-box-color;
+    }
+
+    .kb-content {
+        display: flex;
+    }
+}
+
 @import 'layout';
 
 // Typography:
 @import 'typography';
-
-//Report page
-@import 'report';

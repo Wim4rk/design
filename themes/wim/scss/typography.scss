@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Slab:wght@700&display=swap');
-
-
-
 body {
     font-size: $fontsize-body;
     line-height: $lineheight;
     // letter-spacing: 1px;
     font-family: $font-family;
+    color: $body-color;
 }
 
 h1,
@@ -51,6 +48,10 @@ li p {
     margin-left: 1em;
 }
 
+figcaption {
+    text-align: center;
+}
+
 code,
 kbd,
 samp,
@@ -58,7 +59,7 @@ var {
     display: inline;
     font-family: $code-font-family;
     font-style: normal;
-    color: #000;
+    color: $code-color;
     background: #efefef;
     border: 1px solid #777;
     padding: 0 0.2em;

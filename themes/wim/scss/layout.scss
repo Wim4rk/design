@@ -3,6 +3,16 @@ body {
     margin: 0 auto;
 }
 
+.right {
+    float: right;
+    width: 40%;
+}
+
+.left {
+    float: left;
+    width: 40%;
+}
+
 .site-header {
     flex: 0 0 auto;
     padding: 0 1em;

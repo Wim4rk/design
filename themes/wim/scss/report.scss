@@ -47,7 +47,7 @@
 .kmom-box {
     // padding: 1em;
     grid-column: span 1;
-    border: 1px solid  $first-contrast;
+    border: 1px solid  $kmom-box-color;
 
     .kb-content {
         display: grid;
@@ -59,18 +59,18 @@
     }
 
     a {
-        text-decoration: none;
-        color: #fff;
+        text-decoration: $link-decoration;
+        color: $link-color;
     }
 
     a:hover {
-        color: #fff;
-        text-decoration: underline;
+        color: $link-hover;
+        text-decoration: $link-hover-decoration;
     }
 
     .kmom-header {
         grid-column: span 2;
-        background-color: $first-contrast;
+        background-color: $kmom-box-color;
         padding: 1em;
     }
 

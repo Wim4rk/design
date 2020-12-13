@@ -5,7 +5,7 @@ Description: This is my index page.
 
 # Jag och design
 
-<figure>
+<figure class="right">
     <img src="image/hasselblad.jpg" width="500" alt="Bild på mig">
     <figcaption>Fokusera...</figcaption>
 </figure>
