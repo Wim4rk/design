@@ -15,7 +15,7 @@
     "style-light-min": "sass wim/scss/style-dark.scss wim/css/style-dark.min.css --no-source-map --style compressed",
     "style-light": "sass wim/scss/style.scss wim/css/style.css --no-source-map",
     "style-light-min": "sass wim/scss/style.scss wim/css/style.min.css --no-source-map --style compressed",
-    "mondrian": "sass mondrian/scss/style.scss mondrian/css/style.min.css --no-source-map --style compressed"
+    "mondrian": "sass mondrian/scss/style.scss mondrian/css/style.min.css --watch --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "Olov Wimark",
