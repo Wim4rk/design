@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Slab:wght@700&display=swap');
+
+$site-max-width: 48em;
+
+$magic-number: 28px;
+$fontsize-body: 16px;
+$lineheight: $magic-number / $fontsize-body;
+
+$gap-width: 1em;
+
+$font-family: 'Merriweather', Georgia, Times, 'Times New Roman', serif;
+$header-font-family: 'Roboto Slab', serif;
+$code-font-family: Inconsolata, 'Courier New', Courier, monospace;

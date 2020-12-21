@@ -1,0 +1,71 @@
+body {
+    font-size: $fontsize-body;
+    line-height: $lineheight;
+    // letter-spacing: 1px;
+    font-family: $font-family;
+    color: $body-color;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $header-font-family;
+    // margin-top: 1em;
+}
+
+h1 {
+    @include font-size(2.3em);
+}
+
+h2 {
+    @include font-size(1.6em);
+}
+
+h3 {
+    @include font-size(1.2em);
+}
+
+p {
+    @include font-size(1em);
+    margin-top: 1em;
+}
+
+// p:first-child {
+//     margin-top: 0;
+// }
+
+ul {
+    list-style-position: inside;
+    margin-left: 0.5em;
+}
+
+li {
+    // margin-top: .5em;
+}
+
+li p {
+    margin-left: 1em;
+}
+
+figcaption {
+    text-align: center;
+}
+
+code,
+kbd,
+samp,
+var {
+    display: inline;
+    font-family: $code-font-family;
+    font-style: normal;
+    color: $code-color;
+    background: #efefef;
+    border: 1px solid #777;
+    padding: 0 0.2em;
+}
+
+code {
+    display: block;
+    white-space: pre-wrap;
+}

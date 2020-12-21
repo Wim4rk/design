@@ -1,6 +1,7 @@
 ---
 Title: Om
 Description: About-page
+Template: me
 ---
 
 # Om design

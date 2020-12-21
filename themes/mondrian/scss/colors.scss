@@ -1,0 +1,30 @@
+$html-bg-color: #ccc;
+$body-bg-color: rgba(255, 255, 204, 0.6);
+
+//Text color
+
+$body-color: #333;
+
+$first-contrast: #0097df;
+$second-contrast: #ea363b;
+$greyed: #ccc;
+
+// Code
+$code-color: $body-color;
+$code-bg-color: #ccc;
+$code-border-color: $body-color;
+
+//Links
+$link-color: #00f;
+$link-visited: #00f;
+$link-hover: #00f;
+$link-selected: #00f;
+$link-decoration: none;
+$link-hover-decoration: underline;
+
+$kmom-box-color: $first-contrast;
+
+.fas,
+.fab {
+    color: $greyed !important;
+}
