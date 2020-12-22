@@ -45,23 +45,25 @@
 }
 
 .kmom-box {
-    // padding: 1em;
     grid-column: span 1;
 
     display: flex;
     flex-direction: column;
 
-    position: relative;
-
     border: 1px solid  $kmom-box-color;
 
     .kb-content {
-        // display: grid;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         height: 100%;
+
+        color: $body-color;
+
+        :hover {
+            text-decoration: none;
+        }
     }
 
     h2 {
@@ -88,11 +90,6 @@
 
     .condenced {
         padding: 1em;
-    }
-
-    .arrow {
-        padding: 0 0.2em 0 0;
-        font-size: 4em;
     }
 }
 

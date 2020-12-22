@@ -1,6 +1,7 @@
 ---
 Title: Färganalys
 Description: Analys av färgval på klassiska orkestrars hemsidor
+Template: me
 ---
 # Färgval på stora orkestrars hemsidor
 

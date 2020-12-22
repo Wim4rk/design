@@ -1,28 +1,36 @@
 $html-bg-color: #ccc;
 $body-bg-color: rgba(255, 255, 204, 0.6);
 
+
+$white: #e7e8e3;
+
+$red: #df281e;
+$blue: #015a9e;
+$yellow: #ead86a;
+
 //Text color
 
-$body-color: #333;
+$body-color: #021207;
+$greyed: #aaa;
 
-$first-contrast: #0097df;
-$second-contrast: #ea363b;
-$greyed: #ccc;
+$first-contrast: $red;
+$second-contrast: $blue;
+$third-contrast: $yellow;
 
 // Code
 $code-color: $body-color;
-$code-bg-color: #ccc;
+$code-bg-color: $third-contrast;
 $code-border-color: $body-color;
 
 //Links
-$link-color: #00f;
-$link-visited: #00f;
-$link-hover: #00f;
-$link-selected: #00f;
+$link-color: $first-contrast;
+$link-visited: $first-contrast;
+$link-hover: $second-contrast;
+$link-selected: $greyed;
 $link-decoration: none;
 $link-hover-decoration: underline;
 
-$kmom-box-color: $first-contrast;
+$kmom-box-color: $second-contrast;
 
 .fas,
 .fab {
