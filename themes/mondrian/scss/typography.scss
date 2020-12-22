@@ -31,17 +31,14 @@ p {
     margin-top: 1em;
 }
 
-// p:first-child {
-//     margin-top: 0;
-// }
-
 ul {
     list-style-position: inside;
     margin-left: 0.5em;
 }
 
-li p {
-    margin-left: 1em;
+li p,
+li h1 {
+    margin-left: 1rem;
 }
 
 figcaption {

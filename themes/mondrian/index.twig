@@ -36,7 +36,7 @@
         <ul>
             <li class="field white w1"></li>
             <li class="field red r1">
-                <h1>Portfolio</h1>
+                {{ content }}
             </li>
             <li class="field white w2">
                     <div id="side-nav" role="navigation" tabindex="-1">
@@ -54,7 +54,7 @@
                     &copy; Olov Wimark 2020
                 </p>
             </li>
-            <li class="field white w3 social mon-soc">
+            <li class="field white w3 mon-soc">
                 <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
                 {% for social in pages["_meta"].meta.social %}
                     <a href="{{ social.url }}" title="{{ social.title }}" role="button">

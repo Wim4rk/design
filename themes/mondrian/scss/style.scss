@@ -52,6 +52,12 @@ body {
     text-decoration: none;
 }
 
+.fas,
+.fab {
+    color: $greyed !important;
+    margin: 0.5vw;
+}
+
 figure {
     float: right;
     width: 20em;

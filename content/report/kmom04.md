@@ -15,21 +15,19 @@ lite längre tid. Det har ju varit ett egendomligt år för all scenkonst, så d
 har varit intressant att följa med. Egentligen tror jag att pandemin har
 bidragit till att de inrapporterade sidorna stagnerat en smula.
 
-## Färger
+## Mondrian
 
-Färglära är inte min styrka. Under mina studier vid musikhögskolan diskuterade
-vi ethos-läran en hel del. Det är en gammal teori om hur olika yttre stimuli 
-påverkar en lyssnare eller betraktare. tonarter lämpar
-sig till olika uppgifter. En pastoral idyll komponeras (komponerades) gärna i
-F-dur medan en triumfatorisk marsch passade sig bäst i Ess-dur.
+Jag har länge velat bygga det här temat. Jag utgick från en målning av
+[Piet Mondrian][2]. Originalet kan beskådas [här][3].
 
-Samma tänk fanns om färger. Dyra, exklusiva färger som purpur och blått, blev
-till kungar- och herremäns färger. Jordiga, varma färger stod för enklare folk.
-Det berördes endast flyktigt under lektioner i musikhistoria.
+Det första jag gjorde var att skapa en ny förstasida. En splash-page. Till att
+börja med försökte jag använda markdown. Det gick alldeles utmärkt, förutom att
+det enda jag placerade där var html. När jag skulle loopa igenom alla sidorna
+för att skapa en meny, så lyckades jag inte med det. Kanske är det rent av
+omöjligt att skriva pico-logik i en markdown-fil?
 
-Idag har vi annorlunda upplevelser av färger. Ethos har förskjutits. Om jag
-skall använda mig av färglära på ett bra sätt så kommer jag att få läsa på
-noga om det.
+Så jag skrev hela sidan i html, direkt i twig-filen, undantaget innehållet i den
+röda rutan.
 
 ## Dark theme
 
@@ -80,3 +78,5 @@ __Vilken är din TIL för detta kmom?__
 Fraktioner, <samp>fr</samp>, är ett lysande verktyg tillsammans med grid och flex.
 
 [1]: http://www.student.bth.se/~olai19/dbwebb-kurser/design/me/portfolio/report/kmom04
+[2]: https://en.wikipedia.org/wiki/Piet_Mondrian
+[3]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Piet_Mondriaan%2C_1930_-_Mondrian_Composition_II_in_Red%2C_Blue%2C_and_Yellow.jpg/800px-Piet_Mondriaan%2C_1930_-_Mondrian_Composition_II_in_Red%2C_Blue%2C_and_Yellow.jpg

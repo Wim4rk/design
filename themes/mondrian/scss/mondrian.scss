@@ -1,9 +1,9 @@
 // Mondrian SASS-file
 
-$a: 80px;
+$a: 100px;
 
 body {
-    max-width: 64em;
+    max-width: $site-max-width;
     // margin:4vw auto;
 }
 
@@ -38,11 +38,6 @@ ul {
 
 li {
     padding: 1em;
-    display: flex;
-
-    .social {
-        align-content: space-evenly;
-    }
 }
 
 .w1 {
@@ -53,6 +48,7 @@ li {
 .r1 {
     grid-column: span 6;
     grid-row: span 6;
+    // max-width: 100%;
 }
 
 .w2 {
@@ -152,4 +148,63 @@ li {
     display: flex;
     align-items: flex-end;
     justify-content: left;
+}
+
+@media (max-width: 803px) {
+    .r1 {
+        grid-column: span 6;
+        grid-row: span 6;
+    }
+}
+
+@media (max-width: 687px) {
+    .r1 {
+        grid-column: span 5;
+        grid-row: span 5;
+    }
+
+    .w3 {
+        grid-column: span 3;
+    }
+}
+
+@media (max-width: 571px) {
+
+    .r1 {
+        grid-column: span 4;
+        grid-row: span 4;
+    }
+
+    .w3 {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 455px) {
+
+    .r1 {
+        grid-column: span 3;
+    }
+
+    .w1 {
+        display: none;
+    }
+
+    .w2 {
+        grid-column: span 2;
+    }
+
+    .w3 {
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+
+    .b1 {
+        grid-column: span 3;
+    }
+
+    .mon-soc {
+        flex-direction: column;
+        align-content: stretch;
+    }
 }

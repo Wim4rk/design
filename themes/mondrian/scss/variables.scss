@@ -1,13 +1,12 @@
-// @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Slab:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo&family=Limelight&display=swap');
 
-$site-max-width: 48em;
+$site-max-width: 1047px;
 
 $magic-number: 28px;
 $fontsize-body: 16px;
 $lineheight: $magic-number / $fontsize-body;
 
-$gap-width: 2vw;
+$gap-width: 1rem;
 
 $font-family: 'Exo', sans-serif;
 // $font-family: 'Merriweather', Georgia, Times, 'Times New Roman', serif;
