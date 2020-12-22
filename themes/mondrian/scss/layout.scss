@@ -1,6 +1,7 @@
 body {
-    // max-width: $site-max-width;
+    max-width: $site-max-width;
     margin: 0 auto;
+
 }
 
 .right {
@@ -38,7 +39,6 @@ body {
 }
 
 .social {
-
     .fab,
     .fas {
         margin: 0 1rem 0 0;

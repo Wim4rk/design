@@ -17,8 +17,8 @@ bidragit till att de inrapporterade sidorna stagnerat en smula.
 
 ## Mondrian
 
-Jag har länge velat bygga det här temat. Jag utgick från en målning av
-[Piet Mondrian][2]. Originalet kan beskådas [här][3].
+Jag har länge velat bygga det här temat &ndash; nu äntligen har jag verktygen. Jag
+utgick från en målning av [Piet Mondrian][2]. Originalet kan beskådas [här][3].
 
 Det första jag gjorde var att skapa en ny förstasida. En splash-page. Till att
 börja med försökte jag använda markdown. Det gick alldeles utmärkt, förutom att
@@ -28,6 +28,26 @@ omöjligt att skriva pico-logik i en markdown-fil?
 
 Så jag skrev hela sidan i html, direkt i twig-filen, undantaget innehållet i den
 röda rutan.
+
+Designen är responsiv. Om jag hade valt en målning med fler fält så hade grid
+förmodligen löst det mesta åt mig. Som det är fick jag för mycket svart yta och
+valde att komplettera med @media-förfrågningar.
+
+### Färgschemat
+
+Färgschemat är triadiskt, även om jag använder den gula färgen mycket lite. Jag
+valde också att hämta färgerna från originalet med färgpipetten i Firefox, så
+rent matematiskt kanske de inte stämmer på ett färghjul.
+
+Om jag hade varit riktigt petnoga hade jag kunnat croppa de olika färgfälten ur
+bilden av originalet, då hade jag haft med penseldrag och krackelering. De
+svarta strecken hade nog ändå fått fastställas med CSS.
+
+### Typografi
+
+Jag försökte att hålla mig till ungefär den typografi som borde ha rått kring
+Mondrians målning: _art noveau_. Nu använder jag sans-serifer i brödtexten
+också, något jag brukar försöka att undvika.
 
 ## Dark theme
 
@@ -61,7 +81,7 @@ Jag valde ett ämne som legat mig nära under min karriär hittills. Hur
 marknadsför man klassisk musik på ett bra vis? Det jag upptäckt är att det
 används ganska tråkiga färgval för en så kreativ bransch.
 
-__Vilket färgschema valde du till ditt tema och hur valde du att använda 
+__Vilket färgschema valde du till ditt tema och hur valde du att använda
 färgerna (mer eller mindre eller lika mycket av alla färger)?__
 
 __Valde du att jobba med accentfärg och i så fall hur?__

@@ -2,11 +2,6 @@
 
 $a: 100px;
 
-body {
-    max-width: $site-max-width;
-    // margin:4vw auto;
-}
-
 .white {
     background-color: $white;
 }
@@ -48,7 +43,6 @@ li {
 .r1 {
     grid-column: span 6;
     grid-row: span 6;
-    // max-width: 100%;
 }
 
 .w2 {
@@ -77,63 +71,58 @@ li {
     grid-column: span 1;
 }
 
-#side-nav ul {
-    text-align: left;
-    display: inherit;
-    background-color: inherit;
-    list-style-type: none;
-    list-style-position: outside;
-    padding: 0;
+#side-nav {
+    ul {
+        text-align: left;
+        display: inherit;
+        background-color: inherit;
+        list-style-type: none;
+        list-style-position: outside;
+        padding: 0;
+    }
 
     li {
         display: block;
         padding: 0;
+    }
 
-        a {
-            text-decoration: none;
-            color: $second-contrast;
-        }
+    a {
+        text-decoration: none;
+        color: $second-contrast;
+    }
+
+    a:hover {
+        color: $first-contrast;
     }
 }
 
 #nav ul {
-
     display: flex;
     justify-content: flex-end;
     background-color: inherit;
-
 
     li {
         display: inline-block;
         margin-left: 1em;
         padding: 0;
         font-weight: bold;
+    }
 
-        a {
-            text-decoration: none;
-            color: $second-contrast;
-        }
+    a {
+        text-decoration: none;
+        color: $second-contrast;
     }
 }
 
 .kmom-header {
-
     a:hover {
         color: $third-contrast;
     }
 }
 
 .kmom-box {
-
     a {
         color: $body-color;
-    }
-
-    h2 {
-
-        a:hover {
-            color: $third-contrast;
-        }
     }
 }
 
@@ -150,61 +139,4 @@ li {
     justify-content: left;
 }
 
-@media (max-width: 803px) {
-    .r1 {
-        grid-column: span 6;
-        grid-row: span 6;
-    }
-}
-
-@media (max-width: 687px) {
-    .r1 {
-        grid-column: span 5;
-        grid-row: span 5;
-    }
-
-    .w3 {
-        grid-column: span 3;
-    }
-}
-
-@media (max-width: 571px) {
-
-    .r1 {
-        grid-column: span 4;
-        grid-row: span 4;
-    }
-
-    .w3 {
-        grid-column: span 2;
-    }
-}
-
-@media (max-width: 455px) {
-
-    .r1 {
-        grid-column: span 3;
-    }
-
-    .w1 {
-        display: none;
-    }
-
-    .w2 {
-        grid-column: span 2;
-    }
-
-    .w3 {
-        grid-column: span 1;
-        grid-row: span 3;
-    }
-
-    .b1 {
-        grid-column: span 3;
-    }
-
-    .mon-soc {
-        flex-direction: column;
-        align-content: stretch;
-    }
-}
+@import 'media-queries';

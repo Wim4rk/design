@@ -56,7 +56,7 @@ $link-selected: #fff;
 
 $kmom-box-color: rgba(100, 255, 100, 0.5);
 
-$a: 80px;
+$a: 100px;
 
 // Graphics
 body {
@@ -135,19 +135,6 @@ li {
     grid-column: span 1;
 }
 
-.mon-soc {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    justify-content: right;
-}
-
-.mon-copy {
-    display: flex;
-    align-items: flex-end;
-    justify-content: left;
-}
-
 a {
     text-decoration: underline;
     color: $body-color;
@@ -219,6 +206,7 @@ li a {
             color: $body-color;
         }
     }
+
 }
 
 code,
@@ -305,14 +293,33 @@ img {
 }
 
 .blue {
-    background-color: #33cc33;
+    background-color: #3c3;
 }
 
 .yellow {
     background-color: #99e699;
 }
 
+.mon-soc {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: right;
+
+    a{
+        margin: 0 .5vw;
+    }
+}
+
+.mon-copy {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+
 @import 'layout';
 
 // Typography:
 @import 'typography';
+
+@import 'media-queries';
