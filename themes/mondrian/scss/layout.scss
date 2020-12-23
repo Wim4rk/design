@@ -1,7 +1,6 @@
 body {
     max-width: $site-max-width;
     margin: 0 auto;
-
 }
 
 .right {
@@ -25,11 +24,12 @@ body {
 }
 
 .main {
-    margin: 0 1em;
+    margin: 0;
 }
 
 .container {
     margin: 0 1em;
+    padding-bottom: 1em;
 }
 
 .footer {

@@ -2,6 +2,29 @@
 
 $a: 100px;
 
+.mondrian {
+    max-width: 1027px;
+    background-color: $body-bg-color;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.site-header {
+    background-color: $red;
+
+    a {
+        color: $white;
+    }
+
+    a:hover {
+        color: $yellow;
+    }
+}
+
+.main {
+    background-color: $white;
+}
+
 .white {
     background-color: $white;
 }
@@ -25,10 +48,11 @@ ul {
     grid-auto-rows: $a;
     grid-auto-flow: dense;
 
-    background-color: $body-color;
+    background-color: $body-bg-color;
     list-style-type: none;
     list-style-position: outside;
     padding: 0;
+    margin: 0;
 }
 
 li {
@@ -72,6 +96,7 @@ li {
 }
 
 #side-nav {
+    padding: 1em;
     ul {
         text-align: left;
         display: inherit;
@@ -114,6 +139,10 @@ li {
     }
 }
 
+.landingpage {
+    margin-top: 1em;
+}
+
 .kmom-header {
     a:hover {
         color: $third-contrast;
@@ -124,6 +153,15 @@ li {
     a {
         color: $body-color;
     }
+}
+
+.kmom-wrapper {
+    margin-top: 1em;
+}
+
+.footer {
+    background-color: $second-contrast;
+    margin-top: 1em;
 }
 
 .mon-soc {
