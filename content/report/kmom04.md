@@ -10,10 +10,13 @@ Välkommen att läsa min presentation [online][1].
 Det här är det sista av de kursmoment som jag redan påbörjat vid ett tidigare
 kurstillfälle. Nu börjar det bli på riktigt igen.
 
-Jag hade fördelen att kunna bedriva min studie av orkestrars webbsidor under en
-lite längre tid. Det har ju varit ett egendomligt år för all scenkonst, så det
-har varit intressant att följa med. Egentligen tror jag att pandemin har
-bidragit till att de inrapporterade sidorna stagnerat en smula.
+Alldeles för mycket tid har lagts på mina teman. Jag lappar och lagar i det
+ljusa temat, då spricker något i det mörka. Sen lagar jag det mörka temat och något
+fallerar i det ljusa. Jag kan verkligen lägga hur mycket tid som helst på CSS.
+Samtidigt så blev jag rätt nöjd.
+
+Jag beslutade mig för att göra klart nästa moment innan jag lämnar in det här,
+för jag kan i skrivande stund inte få mina bilder att fungera som jag vill.
 
 ## Mondrian
 
@@ -31,9 +34,13 @@ röda rutan.
 
 Designen är responsiv. Om jag hade valt en målning med fler fält så hade grid
 förmodligen löst det mesta åt mig. Som det är fick jag för mycket svart yta och
-valde att komplettera med @media-förfrågningar.
+valde att komplettera med @media-förfrågningar. Beroende på _view port_ så blir
+det till olika tavlor.
 
-### Färgschemat
+Sedan överförde jag några av idéerna till mina övriga sidor; presentationer,
+rapporter och redovisningar.
+
+### Färgschema
 
 Färgschemat är triadiskt, även om jag använder den gula färgen mycket lite. Jag
 valde också att hämta färgerna från originalet med färgpipetten i Firefox, så
@@ -81,17 +88,32 @@ Jag valde ett ämne som legat mig nära under min karriär hittills. Hur
 marknadsför man klassisk musik på ett bra vis? Det jag upptäckt är att det
 används ganska tråkiga färgval för en så kreativ bransch.
 
+Jag hade fördelen att kunna bedriva min studie av orkestrars webbsidor under en
+lite längre tid. Det har ju varit ett egendomligt år för all scenkonst, så det
+har varit intressant att följa med. Möjligen har pandemin
+bidragit till att de inrapporterade sidorna stagnerat en smula.
+
 __Vilket färgschema valde du till ditt tema och hur valde du att använda
 färgerna (mer eller mindre eller lika mycket av alla färger)?__
 
+Min färgpalett är triadisk; röd, blå och gul.
+
 __Valde du att jobba med accentfärg och i så fall hur?__
 
-
+Egentligen så jobbade jag med tre accentfärger. De fick byta plats beroende på
+vilken av dem som jag valde till huvudfärg just där. Hade jag ett rött fält
+blev länkarna vita. Var fältet vitt så var länkarna blåa. Eftersom jag jobbade
+med grundfärger så var det inte så enkelt att kombinera dem. Jag gjorde ett
+försök att låta en vit länk i en blå bakgrund bli gul när jag svävade över den,
+och det fungerade just där.
 
 __Hur valde du att lösa ditt dark theme? Gjorde du en kopia på ditt vanliga tema? Eller löste du det med imports?__
 
 Jag använde rikligt med imports. Och... Naturligtvis så skrev jag om alla mina
 moduler igen. Fast det blir ju bättre och bättre för varje gång.
+
+Det finns två syften med mitt mörka tema, dels att det skall se ut som
+grund&sky;temat, och att det ändå skall se ut som en monitor från sent 70-tal.
 
 __Vilken är din TIL för detta kmom?__
 

@@ -1,7 +1,5 @@
 // Mondrian SASS-file
 
-$a: 100px;
-
 .mondrian {
     max-width: 1027px;
     background-color: $body-bg-color;
@@ -10,7 +8,8 @@ $a: 100px;
 }
 
 .site-header {
-    background-color: $red;
+    padding: 0;
+    margin: 0;
 
     a {
         color: $white;
@@ -19,6 +18,18 @@ $a: 100px;
     a:hover {
         color: $yellow;
     }
+
+    .container {
+        margin: 0;
+        padding-bottom: 0;
+        display: grid;
+        grid-template-columns: 2 * $a auto;
+        gap: $gap-width;
+    }
+}
+
+.placeholder {
+    background-color: $blue;
 }
 
 .main {
@@ -96,7 +107,8 @@ li {
 }
 
 #side-nav {
-    padding: 1em;
+    padding: $gap-width;
+
     ul {
         text-align: left;
         display: inherit;
@@ -121,10 +133,29 @@ li {
     }
 }
 
-#nav ul {
-    display: flex;
-    justify-content: flex-end;
-    background-color: inherit;
+.nav-holder {
+    background-color: $first-contrast;
+}
+
+.right {
+    border-right: 0;
+    margin-right: -1em;
+}
+
+.left {
+    border-left: 0;
+    margin-left: -1em;
+}
+
+#nav {
+    background-color: $first-contrast;
+    padding: 3em 1em;
+
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        background-color: inherit;
+    }
 
     li {
         display: inline-block;
@@ -135,7 +166,20 @@ li {
 
     a {
         text-decoration: none;
-        color: $second-contrast;
+        color: $white;
+    }
+}
+
+#nav-toggle {
+    background-color: $first-contrast;
+}
+
+.container ul {
+    background-color: inherit;
+    display: block;
+
+    li {
+        padding: 0;
     }
 }
 

@@ -11,6 +11,20 @@
     }
 }
 
+@media (max-width: 767px) {
+    #nav {
+        padding: 0 1em;
+
+        ul {
+             flex-direction: column;
+        }
+
+        li {
+            padding: 0;
+        }
+    }
+}
+
 @media (max-width: 687px) {
     .r1 {
         grid-column: span 5;
@@ -30,6 +44,12 @@
 
     .w3 {
         grid-column: span 2;
+    }
+
+    .footer {
+        flex-direction: column;
+        flex-grow: 1;
+        text-align: center;
     }
 }
 
