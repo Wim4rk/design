@@ -10,6 +10,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'colors';
 
 @import '../../shared/scss/base';
+@import '../../shared/scss/tables';
 
 @import 'layout';
 
@@ -73,4 +74,9 @@ figure {
 
 img {
     width: 100%;
+}
+
+table {
+    width: 75%;
+    margin: 0 auto;
 }

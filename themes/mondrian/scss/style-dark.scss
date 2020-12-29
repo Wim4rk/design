@@ -17,6 +17,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'colors';
 
 @import '../../shared/scss/base';
+@import '../../shared/scss/tables';
 
 @import 'report';
 
@@ -219,6 +220,25 @@ li a {
         }
     }
 
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+
+    th {
+        color: $body-bg-color;
+        background-color: $body-color;
+    }
+
+}
+
+tr:nth-child(even) {
+    background-color: rgba(100, 255, 100, 0.1);
+}
+
+tr:hover {
+    background-color: rgba(100, 255, 100, 0.2);
 }
 
 code,
