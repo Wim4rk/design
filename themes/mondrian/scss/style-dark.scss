@@ -84,7 +84,7 @@ body {
     max-width: 1035px
 }
 
-ul {
+.mondrian ul {
     display: grid;
     gap: $gap-width;
     grid-template-columns: repeat(auto-fill, minmax($a, 1fr));
@@ -97,7 +97,7 @@ ul {
     padding: 0;
 }
 
-li {
+.mondrian li {
     padding: 1em;
 }
 
