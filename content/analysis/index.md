@@ -19,7 +19,7 @@ Template: report
     <div class="kmom-header"><a href="analysis/02_load"><h2>Laddtider</h2></a></div>
     <a href="analysis/02_load">
         <div class="kb-content">
-            <div class="condenced">Framtida innehåll</div>
+            <div class="condenced">Laddtider hos tre svenska myndigheter.</div>
         </div>
     </a>
 </div>
