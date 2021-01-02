@@ -23,10 +23,17 @@ Mozilla Firefox.
 
 ## Resultat
 
-Alla dessa sidor har god funktionalitet. Jag kan finna det jag letar efter och
-ingen sida är särskilt långsam. Folkhälsomyndighetens sida imponerar.
+Utifrån laddtider rangordnar de undersökta sajterna sig såhär:
 
-Enligt [Google pagespeed][2] kan sidorna förbättra sina laddtider genom att 
+1. [FHM][3]
+2. [FRA][4]
+3. [MSB][5]
+
+FHM är en klar vinnare, sidan imponerar, men alla dessa sidor har god
+funktion&shy;alitet. Jag kan finna det jag letar efter och ingen sida är
+särskilt långsam.
+
+Enligt [Google pagespeed][2] kan sidorna förbättra sina laddtider genom att
 göra följande besparingar (i urval). Ändringen anges i sekunder.
 
 <table>
@@ -89,19 +96,27 @@ det att rekom&shy;mendera.
 
 #### Desktop first
 
-Alla undersökta myndigheter borde bättre inrikta sig på mobil&shy;telefoner. 
+Alla undersökta myndigheter borde bättre inrikta sig på mobil&shy;telefoner.
 Betyget ([Google page&shy;speed][2]) är utan undantag lägre för mobil&shy;anpassade
 sidor kontra sidor för desktop. I vissa fall är diskrepansen stor.
-Den enda myndighet som får ett _bra_ betyg för mobil&shy;telefoner är 
+Den enda myndighet som får ett _bra_ betyg för mobil&shy;telefoner är
 Folk&shy;hälso&shy;myndig&shy;heten.
 
+#### Gräns för absolut laddningstid
+
+Jag förväntar mig att sidan skall vara laddad inom 3 sekunder. Jag tänker på
+laddnings&shy;tid när den överstiger 1 sekund. Ingen av de under&shy;sökta
+webb&shy;platserna överskrider 3 sekunder till en första rendering.
+
 ## Analys
+
+Min rådata kan granskas [här][1].
 
 ### [FHM][3]
 
 #### Folkhälsomyndigheten
 
-FHM får mycket höga betyg av ([Google page&shy;speed][2]), som endast föreslår 
+FHM får mycket höga betyg av ([Google page&shy;speed][2]), som endast föreslår
 smärre förbättrings&shy;punkter. Värt att nämna är att man kunde tjäna in data på
 att använda ett modernt filformat, som alla de andra sidorna, men besparingen är
 ringa.
@@ -129,7 +144,7 @@ så var fhm.se till salu så sent som den 2 december 2020.
 #### Försvarets Radioanstalt
 
 Här har vi ett coolt tema med rörliga bilder som verkligen leder tanken till
-digital säkerhet, nationellt försvar och kryp&shy;terings&shy;teknik. Sidan är 
+digital säkerhet, nationellt försvar och kryp&shy;terings&shy;teknik. Sidan är
 så att säga rekryterande.
 
 När förstasidan är öppen uppstår ett referensfel varje gång som huvud&shy;bilden
@@ -159,7 +174,7 @@ som jag instinktivt kan acceptera.
 
 #### Myndigheten för Samhällsskydd och Beredskap
 
-Även MSB borde fokusera mer på mobiltelefoner, man försöker, som FRA, att
+Även MSB borde fokusera mer på mobiltelefoner. Man försöker, som FRA, att
 få in så mycket infor&shy;mation som möjligt på första&shy;sidan.
 
 Den största besparing man kan göra här är att använda modernare bild&shy;format,
