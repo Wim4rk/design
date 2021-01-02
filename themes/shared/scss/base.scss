@@ -2,3 +2,7 @@
 @import 'mixins';
 @import 'nav';
 @import 'responsive';
+
+img:not([alt]) {
+    outline: 4px $first-contrast dashed !important;
+}
