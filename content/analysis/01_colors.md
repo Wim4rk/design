@@ -6,7 +6,7 @@ Template: me
 # Färgval på stora orkestrars hemsidor
 
 En kort analys av hemsidorna för fem av Sveriges stora orkestrar.
-
+    
 ## Urval
 
 Jag har valt att titta på hemsidorna för Kungliga Operan, Sveriges Radios symfoniorkester, Malmö symfoniorkester, Göteborgs Symfoniker och Kungliga Filharmonikerna
@@ -25,7 +25,14 @@ En sak jag lagt märke till är att dessa orkestrar använder sig av maximal kon
 
 ### Kungliga Operan
 
+<figure class="right">
+    <img src="../image/operan.jpg" alt="Kungliga Operans hemsida">
+    <figcaption>Kungliga Operans hemsida</figcaption>
+</figure>
+
 [Kungliga operan][1] i Stockholm använder ett svart&shy;vitt tema, med en blod&shy;röd kontrast&shy;färg. Kontrast&shy;färgen används till länkar och som hover-effekt.
+
+
 
 Ibland blir länkar gråa när man har pekaren över dem. Jag har tolkat det som att dessa länkar är mindre viktiga, då de pekar mot sådana saker som "jobba hos oss" och liknande.
 
@@ -40,6 +47,11 @@ Den genomgående upplevelsen är av svart, och tillsammans med de mörka bildern
 ### Filharmonikerna
 
 Absolut strängast i sin färgskala är Konserthuset i Stockholm, [Kungliga filharmonikerna][2], och samtidigt de mest toleranta. Själva temat är uteslutande svart och vitt. Det gör att inga fotografier direkt skär sig, och de bilder man använder sig av är oftast ljusa och lyfts fram med mycket negativ yta. Det ger ett lättare intryck än Kungliga Operans hemsida.
+
+<figure class="right">
+    <img src="../image/filharmonien.jpg?w=400" alt="Filharmonikernas hemsida">
+    <figcaption>Filharmonikernas hemsida</figcaption>
+</figure>
 
 Samtidigt gör man stora avsteg. Färgen ffc319 (gul) används på förstasidan i ordet "Längtar". Man väljer också att använda enskilda färger för att marknadsföra evenemang. Jag får det till inte mindre än sex olika färger, rosa, ljusrosa, ljusblått, mörkgult, vitt och brungrått. Jag måste tillstå att färgerna ändå harmoniserar, någon har gjort ett mycket medvetet val här. Samtidigt vill jag inte riktigt tillstå att de ingår i temat. Jag upplever dem som temporära.
 
@@ -57,10 +69,7 @@ Filharmonikerna använder mörkblått för att lyfta fram sitt kalendarium. 0b27
 
 Man har harmoniserat fotografiernas färgskalor på ett tilltalande sätt, vilket ger hemsidan en gyllene, orange framtoning.
 
-<figure class="right">
-    <img src="image/gbg.png" width="500" alt="Screendump från GSO:s hemsida">
-    <figcaption>Göteborgs symfoniorkesters hemsida</figcaption>
-</figure>
+<img src="{{ base url }}/image/gbg.jpg" alt="Göteborgsmusiken">
 
 Samtidigt verkar sidan ha hamnat i händerna på någon som inte tar allt för mycket hänsyn till färgmatchning. En annons med uppmaningen att abonnera är en övergång från rosa till lila, helt nära den röda loggan.
 
@@ -75,6 +84,11 @@ Det finns också en del problem med z-axeln. En knapp som ständigt svävar öve
 ### Malmö symfoniorkester
 
 [Malmö symfoniorkester][4] bryter upp sitt strikta färgschema med brokiga bilder. Här finns också den röda färgen för hetta och passion. Två saker slår mig som intressanta; kontrasten mellan svart och vitt har mildrats, och man använder den orangea signal&shy;färgen för att markera inställda evenemang.
+
+<figure class="right">
+    ![MSO:s hemsida](image/malmo.jpg?w=400)
+    <figcaption>MSO:s hemsida</figcaption>
+</figure>
 
 Att mildra den svartvita kontrasten ger en ökad läsbarhet, men man har inte gjort så genomgående. Jag anar att man tagit fram färgschemat på det viset, men vid senare uppdateringar så har den helsvarta färgen tagit över igen, medvetet eller ej. Den mildare vita bakgrunden verkar bestå.
 
@@ -93,6 +107,11 @@ Att använda den orangea färgen för att markera inställda evenemang har en du
 ### Sveriges radios symfoniorkester
 
 Här har vi en intressant avvikelse, och det är att kontrastfärgen är grön. [SRSO][5] särskiljer sig också med att låta ett fotografi ta upp hela bakgrunden _above the fold_. I skrivande stund är även fotografiet svart&shy;vitt, men det har varierat under tiden då jag observerat hemsidan.
+
+<figure class="right">
+    ![Sveriges Radios Symfoniorkesters hemsida](image/radion.jpg?w=400)
+    <figcaption>Sveriges Radios Symfoniorkesters hemsida</figcaption>
+</figure>
 
 För varje större framträdande har man annonser av samma höjd &ndash; samma dignitet &ndash; som den översta, även om man måste bläddra sig fram till dem. Om läsarens skärm stämmer överens med sidan så blir det en trevlig läs&shy;upp&shy;levelse. Kanske kunde man önska sig en tydligare sid&shy;vändning, och kanske kan det uppnås med JavaScript?
 
@@ -127,7 +146,7 @@ Tolkningen av färgen röd skiljer sig också mellan orkestrarna. (GSO använder
     <div class="color color4" style="background-color:#df486e; color:#fff;">MSO</div>
 </div>
 
-Det _är_ en intensiv färg och att framställa den som klarröd (f00) skulle kännas som bjärt lysande, en varningsfärg. Man har därför mildrat intensiteten och uppnått en behaglig nyans som inte varit för bjärt.
+Det _är_ en intensiv färg och att framställa den som klarröd (f00) skulle kännas som bjärt lysande, en varningsfärg. Man har därför mildrat intensiteten och uppnått en behaglig nyans som inte varit för stark.
 
 Det kan vara värt att notera att MSO, som var de enda i den här under&shy;sökningen som mildrade kontrasten mellan svart och vitt, också är de som tonat ner sin röda som allra mest.
 

@@ -55,6 +55,6 @@ grund&sky;temat, och att det ändå skall se ut som en monitor från sent 70-tal
 
 __Vilken är din TIL för detta kmom?__
 
-Fraktioner, <samp>fr</samp>, är ett lysande verktyg tillsammans med grid och flex.
+Markdown kan inte renderas inom html-block. Om man använder html så använder man html full ut. Ända undantaget är inline-element som <code\>.
 
 [1]: http://www.student.bth.se/~olai19/dbwebb-kurser/design/me/portfolio/report/kmom05

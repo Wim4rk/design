@@ -121,6 +121,11 @@ smärre förbättrings&shy;punkter. Värt att nämna är att man kunde tjäna in
 att använda ett modernt filformat, som alla de andra sidorna, men besparingen är
 ringa.
 
+<figure class="right">
+    ![Folkhälsomyndighetens hemsida](image/fhm.jpg?w=400)
+    <figcaption>Folkhälsomyndighetens hemsida</figcaption>
+</figure>
+
 Sidan är mycket snabb. Den har enkel och klar HTML. All CSS finns i
 HTML-dokumentet. Här har man verkligen ansträngt sig för att optimera
 data&shy;överföring och filstorlekar. Något som rimmar väl med den belastning
@@ -146,6 +151,11 @@ så var fhm.se till salu så sent som den 2 december 2020.
 Här har vi ett coolt tema med rörliga bilder som verkligen leder tanken till
 digital säkerhet, nationellt försvar och kryp&shy;terings&shy;teknik. Sidan är
 så att säga rekryterande.
+
+<figure class="right">
+    ![Försvarets radioanstalts hemsida](image/fra.jpg?w=400)
+    <figcaption>Försvarets radioanstalts hemsida</figcaption>
+</figure>
 
 När förstasidan är öppen uppstår ett referensfel varje gång som huvud&shy;bilden
 laddas om. En av bilderna i "karusellen" sticker ut. Dess storlek är 1,6 MB,
@@ -176,6 +186,12 @@ som jag instinktivt kan acceptera.
 
 Även MSB borde fokusera mer på mobiltelefoner. Man försöker, som FRA, att
 få in så mycket infor&shy;mation som möjligt på första&shy;sidan.
+
+<figure class="right">
+    ![MSB:s hemsida](image/msb.jpg?w=400)
+    <figcaption>MSB:s hemsida</figcaption>
+</figure>
+
 
 Den största besparing man kan göra här är att använda modernare bild&shy;format,
 och att koda bilder bättre.

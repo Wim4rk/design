@@ -47,7 +47,7 @@ Template: report
 
     <a href="report/kmom05">
     <div class="kb-content">
-        <div class="condenced">Något om kursmomentet.</div>
+        <div class="condenced">Bilder</div>
     </div>
     </a>
 </div>
@@ -55,9 +55,10 @@ Template: report
 
 <div class="kmom-box">
     <div class="kmom-header"><a href="report/kmom06"><span class="link-anchor"></span><h2>Kmom06</h2></a></div>
+
     <a href="report/kmom06">
     <div class="kb-content">
-            <div class="condenced">Något om kursmomentet.</div>
+        <div class="condenced">Användbarhet/div>
     </div>
     </a>
 </div>
