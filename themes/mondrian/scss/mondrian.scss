@@ -1,5 +1,9 @@
 // Mondrian SASS-file
 
+body {
+    padding: 0;
+}
+
 .mondrian {
     max-width: 1027px;
     background-color: $body-bg-color;
@@ -34,6 +38,7 @@
 
 .main {
     background-color: $white;
+    margin: 0 1em;
 }
 
 .white {
