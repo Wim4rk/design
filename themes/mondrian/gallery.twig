@@ -23,7 +23,7 @@
     <!-- End -->
     <!-- <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" /> -->
     {% if config.session.theme == "dark" %}
-        <link rel="stylesheet" href="{{ theme_url }}/css/gallery.min.css" type="text/css" />
+        <link rel="stylesheet" href="{{ theme_url }}/css/gallery-dark.min.css" type="text/css" />
     {% else %}
         <link rel="stylesheet" href="{{ theme_url }}/css/gallery.min.css" type="text/css" />
     {% endif %}
@@ -49,18 +49,13 @@
             </ul>
         </div>
         </div>
-        <!-- <div class="flash-region">
-            <img class="flash-img" src="{{ base_url }}/image/Keybs-17.jpg?width=1100&height=150&crop-to-fit&area=30,0,30,0">
-        </div> -->
     </div>
 </header>
     <main>
         <div class="gallery">
-            {% for image in meta.images %}
-                <div class="exhibit">
-                    <img src="{{ base_url }}/image/gallery/{{ image.url }}" alt="{{ image.alt }}" class="{{ image.class }}">
-                </div>
-            {% endfor %}
+        {% for image in meta.images %}
+            <img src="{{ base_url }}/image/gallery/{{ image.url }}" alt="{{ image.alt }}" class="{{ image.class }}">
+        {% endfor %}
         </div>
     </main>
 

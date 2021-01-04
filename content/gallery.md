@@ -11,7 +11,7 @@ images:
       class:
     - alt: Port till en riven byggnad
       url: bth-3.jpg
-      class: col2
+      class:
     - alt: Alper kring Chamonix
       url: bth-4.jpg
       class:
@@ -26,7 +26,7 @@ images:
       class:
     - alt: Mörk profil av Stockholms slott och en slottsvakt
       url: bth-8.jpg
-      class: ""
+      class: 
     - alt: Nattlig scen i Gamla Stan
       url: bth-9.jpg
       class:
@@ -59,7 +59,7 @@ images:
       class:
     - alt: Dragonmusikkåren framträder i hårt regn
       url: bth-19.jpg
-      class: col2
+      class: col2 row2
     - alt: Dopscen i Sollentuna kyrka
       url: bth-20.jpg
       class:

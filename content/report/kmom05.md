@@ -24,8 +24,8 @@ Att använda Cimage är inte helt nytt för mig, men den här gången nådde jag
 bättre förståelse. Det är väldigt praktiskt att cacha upp de bilder man behöver
 senare, men att ändå bara ladda upp en enda bild.
 
-Att spara endast lite i poten&shy;tiellt stora kvanti&shy;teter kan ge oanad
-rationali&shy;sering.
+Att spara endast lite kvalitet i poten&shy;tiellt stora kvanti&shy;teter kan ge
+oanad rationali&shy;sering.
 
 ## Responsivitet och användbarhet
 
@@ -37,16 +37,15 @@ Att begära bilder
 i rätt storlek är mycket fördel&shy;aktigt, både för att spara in på
 data&shy;trafik och ladd&shy;tider.
 
-Ett verktyg jag själv använder flitigt är _\&shy;_. Det anger var ord får
+Ett verktyg jag själv använder flitigt är _&amp;shy;_. Det anger var ord får
 avstavas när det behövs. När man då ändrar storlek på view-port så ändrar
-avstav&shy;ningarna sig också. Det saknas ett opensource-verktyg för att
-auto&shy;matiskt identi&shy;fiera lämpliga ställen och lägga till _\&shy;_.
-I alla fall på Github...
+avstav&shy;ningarna sig också.
+
+Det saknas ett opensource-verktyg på svenska för att auto&shy;matiskt
+identi&shy;fiera lämpliga ställen och lägga till _&amp;shy;_. Det kanske
+är ett framtida projekt?
 
 ## Bildgalleriet
-
-Jag skapade en ny spash-page för ett bildgalleri.
-
 Bilderna jag använder är mina egna. I vanliga fall när jag skapar bilder för
 nätet så konver&shy;terar jag dem från raw-formatet till jpg. Jag passar på att
 göra bilderna mindre, och att dra ner kvalitén till 85%. Det brukar resultera i
@@ -57,11 +56,19 @@ export som möjligt. De flesta av mina filer ligger nu mellan 500- och 700 kB.
 En är på 1,2 MB. Vissa är omkring 300 kB. Upp&shy;lös&shy;ningen varierar
 beroende på vilken kamera jag använt, och de flesta bilder är svart&shy;vita.
 
+Jag skapade en ny splash-page för ett bildgalleri. Jag angav en ny maxbredd;
+10&nbsp;000 px för att alltid fylla hela skärmen. I meta-datan lade jag till
+klasser för att sedan få en så enkel CSS som möjligt. Filen som styr galleriet
+är 26 rader lång. Grid hjälper till rätt mycket.
+
+Missa inte att mitt galleri också fungerar i mitt mörka tema, men då som
+mono&shy;kromatiska bilder med grön tint.
+
 ### Kort och koncist
 
 __Berätta kort om erfarenheterna med din undersökning av webbplatsers laddningstid och vad du kom fram till.__
 
-I mitt mycket smala utval fann jag att för stora bilder inte var ett problem.
+I mitt mycket smala urval fann jag att för stora bilder inte var ett problem.
 Däremot föreslog [Google Pagespeed][2] att man borde använda Googles nya
 bild&shy;format i alla tre fallen. Dock med om&shy;skriv&shy;ningen att man
 borde använda "modernare" bild&shy;format.
@@ -70,8 +77,8 @@ __Har du några funderingar kring Cimage och dess nytta och features? Vilka bild
 
 Jag har alltid skapat mina bilder via Adobe Lightroom &ndash; en rätt gammal
 utgåva. Där kan man välja att optimera för skärm, och får filer kring 300 kb.
-Tillsammans med _width: 100;_ brukar det vara tillräckligt lätta bilder för
-det mesta.
+Till&shy;sammans med _width: 100%;_ brukar det bli responsivt med hyggligt lätta
+filer.
 
 Cimage verkar vara ett trevligt verktyg. Det roade mig att man var tvungen att
 definiera formatet 1:1 själv.
