@@ -18,14 +18,7 @@ Ett urval om tre webbplatser, särskilt när de är valda ur samma kate&shy;gori
 kan lätt få fel viktning. Jag har skaffat mig över&shy;blick över tre
 myndig&shy;heters hemsidor, det är egentligen allt.
 
-## Cimage
 
-Att använda Cimage är inte helt nytt för mig, men den här gången nådde jag en
-bättre förståelse. Det är väldigt praktiskt att cacha upp de bilder man behöver
-senare, men att ändå bara ladda upp en enda bild.
-
-Att spara endast lite kvalitet i poten&shy;tiellt stora kvanti&shy;teter kan ge
-oanad rationali&shy;sering.
 
 ## Responsivitet och användbarhet
 
@@ -46,6 +39,7 @@ identi&shy;fiera lämpliga ställen och lägga till _&amp;shy;_. Det kanske
 är ett framtida projekt?
 
 ## Bildgalleriet
+
 Bilderna jag använder är mina egna. I vanliga fall när jag skapar bilder för
 nätet så konver&shy;terar jag dem från raw-formatet till jpg. Jag passar på att
 göra bilderna mindre, och att dra ner kvalitén till 85%. Det brukar resultera i
@@ -58,13 +52,40 @@ beroende på vilken kamera jag använt, och de flesta bilder är svart&shy;vita.
 
 Jag skapade en ny splash-page för ett bildgalleri. Jag angav en ny maxbredd;
 10&nbsp;000 px för att alltid fylla hela skärmen. I meta-datan lade jag till
-klasser för att sedan få en så enkel CSS som möjligt. Filen som styr galleriet
-är 26 rader lång. Grid hjälper till rätt mycket.
+klasser för att sedan få en så enkel CSS som möjligt. Jag försökte att låta bli
+min header så mycket som möjligt, den hade nog mått bra av mer
+respon&shy;sivitet.
+
+Jag fick galleriet att fungera med 26 rader kod men jag lade till lite
+lull-lull för att zooma den bild man hovrar över, och för att lösa en media-query.
+Filen blev slutligen 46 rader lång. Grid hjälper verkligen till mycket.
 
 Missa inte att mitt galleri också fungerar i mitt mörka tema, men då som
-mono&shy;kromatiska bilder med grön tint.
+mono&shy;kromatiska bilder med grön tint. Jag har också lärt mig att använda
+Cimage för att försämra kvalitén.
 
-### Kort och koncist
+## Cimage
+
+Att använda Cimage är inte helt nytt för mig, men den här gången nådde jag en
+bättre förståelse. Det är väldigt praktiskt att cacha upp de bilder man behöver
+ha i olika format, men att ändå bara ladda upp en enda original&shy;bild.
+
+Att spara endast lite kvalitet i poten&shy;tiellt stora kvanti&shy;teter kan ge
+oanad rationali&shy;sering.
+
+Jag valde att använda _object-fit: cover;_ för att få mina bilder jämna i
+galleriet. Det gjorde det mer eller mindre onödigt att använda Cimage i det
+hänseendet.
+
+I en loop är det svårt att få Cimage att rätt beskära bilder som har
+olika format. Jag har till exempel bilder både i landskaps- och i
+porträtt&shy;format.
+
+Därför beskar jag alla bilder till 600 pixlars bredd, det minsta som kan
+användas för bilder i landskaps&shy;läge, och jag sänkte kvalitén till 40%.
+Bilderna i det mörka temat är 4% av originalets kvalité...
+
+## Kort och koncist
 
 __Berätta kort om erfarenheterna med din undersökning av webbplatsers laddningstid och vad du kom fram till.__
 

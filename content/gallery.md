@@ -26,13 +26,13 @@ images:
       class:
     - alt: Mörk profil av Stockholms slott och en slottsvakt
       url: bth-8.jpg
-      class: 
+      class:
     - alt: Nattlig scen i Gamla Stan
       url: bth-9.jpg
       class:
     - alt: Slussen i Stockholm, innan renoveringen
       url: bth-10.jpg
-      class: col2 row2
+      class:
     - alt: Skadad perrong vaktas av distraherade trafikvärdar
       url: bth-11.jpg
       class:
@@ -44,7 +44,7 @@ images:
       class:
     - alt: Översvämmad gångtunnel
       url: bth-14.jpg
-      class:
+      class: col2 row2
     - alt: Solnedgång i Helsingborg
       url: bth-15.jpg
       class:
@@ -59,7 +59,7 @@ images:
       class:
     - alt: Dragonmusikkåren framträder i hårt regn
       url: bth-19.jpg
-      class: col2 row2
+      class:
     - alt: Dopscen i Sollentuna kyrka
       url: bth-20.jpg
       class:
