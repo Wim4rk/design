@@ -25,18 +25,22 @@ En sak jag lagt märke till är att dessa orkestrar använder sig av maximal kon
 
 ### Kungliga Operan
 
-<figure class="right">
-    <img src="../image/operan.jpg" alt="Kungliga Operans hemsida">
+<figure class="left">
+    <img src="../image/operan.jpg?w=400&q=50" alt="Kungliga Operans hemsida">
     <figcaption>Kungliga Operans hemsida</figcaption>
 </figure>
 
 [Kungliga operan][1] i Stockholm använder ett svart&shy;vitt tema, med en blod&shy;röd kontrast&shy;färg. Kontrast&shy;färgen används till länkar och som hover-effekt.
-
-
+Många länkar är vita, och ibland kan jag tycka att det är lite otydligt vad man
+kan trycka på för att komma vidare.
 
 Ibland blir länkar gråa när man har pekaren över dem. Jag har tolkat det som att dessa länkar är mindre viktiga, då de pekar mot sådana saker som "jobba hos oss" och liknande.
 
-Den genomgående upplevelsen är av svart, och tillsammans med de mörka bilderna finner jag det en smula tungt.
+Sidan är bildorienterad. En trevlig animation visar fler rubriker när man hovrar över bilder.
+Fokus läggs just nu på Operans strömningstjänst, och man får bläddra ner för att
+finna före&shy;ställ&shy;ningarna. Det brukar annars vara tvärt om.
+
+Den genomgående upplevelsen är svart, och tillsammans med de mörka bilderna finner jag det en smula tungt.
 
 <div class="palette">
     <div class="color color1" style="background-color:#000; color:#fff;">000</div>
@@ -49,7 +53,7 @@ Den genomgående upplevelsen är av svart, och tillsammans med de mörka bildern
 Absolut strängast i sin färgskala är Konserthuset i Stockholm, [Kungliga filharmonikerna][2], och samtidigt de mest toleranta. Själva temat är uteslutande svart och vitt. Det gör att inga fotografier direkt skär sig, och de bilder man använder sig av är oftast ljusa och lyfts fram med mycket negativ yta. Det ger ett lättare intryck än Kungliga Operans hemsida.
 
 <figure class="right">
-    <img src="../image/filharmonien.jpg?w=400" alt="Filharmonikernas hemsida">
+    <img src="../image/filharmonien.jpg?w=400&q=50" alt="Filharmonikernas hemsida">
     <figcaption>Filharmonikernas hemsida</figcaption>
 </figure>
 
@@ -65,11 +69,14 @@ Filharmonikerna använder mörkblått för att lyfta fram sitt kalendarium. 0b27
 
 ### GSO
 
-[Göteborgs symfoniker][3] är den enda orkestern som inte använder ett svart&shy;vitt tema. Deras hemsida är röd och vit, dock monokromatiskt.
+[Göteborgs symfoniker][3] är den enda orkestern som inte använder ett svart&shy;vitt tema. Deras hemsida är röd och vit, om än monokromatiskt.
+
+<figure class="left">
+    <img src="../image/gbg.jpg?w=400&q=50" alt="Göteborgs symfonikers hemsida">
+    <figcaption>Göteborgs symfonikers hemsida</figcaption>
+</figure>
 
 Man har harmoniserat fotografiernas färgskalor på ett tilltalande sätt, vilket ger hemsidan en gyllene, orange framtoning.
-
-<img src="{{ base url }}/image/gbg.jpg" alt="Göteborgsmusiken">
 
 Samtidigt verkar sidan ha hamnat i händerna på någon som inte tar allt för mycket hänsyn till färgmatchning. En annons med uppmaningen att abonnera är en övergång från rosa till lila, helt nära den röda loggan.
 
@@ -86,7 +93,7 @@ Det finns också en del problem med z-axeln. En knapp som ständigt svävar öve
 [Malmö symfoniorkester][4] bryter upp sitt strikta färgschema med brokiga bilder. Här finns också den röda färgen för hetta och passion. Två saker slår mig som intressanta; kontrasten mellan svart och vitt har mildrats, och man använder den orangea signal&shy;färgen för att markera inställda evenemang.
 
 <figure class="right">
-    ![MSO:s hemsida](image/malmo.jpg?w=400)
+    <img src="../image/malmo.jpg?w=400&q=50" alt="MSO:s hemsida">
     <figcaption>MSO:s hemsida</figcaption>
 </figure>
 
@@ -108,8 +115,8 @@ Att använda den orangea färgen för att markera inställda evenemang har en du
 
 Här har vi en intressant avvikelse, och det är att kontrastfärgen är grön. [SRSO][5] särskiljer sig också med att låta ett fotografi ta upp hela bakgrunden _above the fold_. I skrivande stund är även fotografiet svart&shy;vitt, men det har varierat under tiden då jag observerat hemsidan.
 
-<figure class="right">
-    ![Sveriges Radios Symfoniorkesters hemsida](image/radion.jpg?w=400)
+<figure class="left">
+    <img src="../image/radion.jpg?w=400&q=50" alt="Sveriges Radios Symfoniorkester">
     <figcaption>Sveriges Radios Symfoniorkesters hemsida</figcaption>
 </figure>
 

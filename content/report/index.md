@@ -58,7 +58,7 @@ Template: report
 
     <a href="report/kmom06">
     <div class="kb-content">
-        <div class="condenced">Användbarhet/div>
+        <div class="condenced">Användbarhet</div>
     </div>
     </a>
 </div>

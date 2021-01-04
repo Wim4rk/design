@@ -102,6 +102,11 @@ sidor kontra sidor för desktop. I vissa fall är diskrepansen stor.
 Den enda myndighet som får ett _bra_ betyg för mobil&shy;telefoner är
 Folk&shy;hälso&shy;myndig&shy;heten.
 
+Något som man verkligen kan använda för att göra en mobil&shy;sida mer läsbar är
+att inte lägga hela inne&shy;hållet i en enda hög kolumn. Försök inte att få in
+hela sidans information på första&shy;sidan, utan följ FHM:s exempel och
+ge stora tydliga bilder eller knappar för att nå en relevant undersida.
+
 #### Gräns för absolut laddningstid
 
 Jag förväntar mig att sidan skall vara laddad inom 3 sekunder. Jag tänker på
@@ -122,7 +127,7 @@ att använda ett modernt filformat, som alla de andra sidorna, men besparingen �
 ringa.
 
 <figure class="right">
-    ![Folkhälsomyndighetens hemsida](image/fhm.jpg?w=400)
+    <img src="../image/fhm.jpg?w=400&q=50" alt="Folkhälsomyndighetens hemsida">
     <figcaption>Folkhälsomyndighetens hemsida</figcaption>
 </figure>
 
@@ -148,26 +153,26 @@ så var fhm.se till salu så sent som den 2 december 2020.
 
 #### Försvarets Radioanstalt
 
+<figure class="left">
+    <img src="../image/fra.jpg?w=400&q=50" alt="FRA:s hemsida">
+    <figcaption>FRA:s hemsida</figcaption>
+</figure>
+
 Här har vi ett coolt tema med rörliga bilder som verkligen leder tanken till
 digital säkerhet, nationellt försvar och kryp&shy;terings&shy;teknik. Sidan är
 så att säga rekryterande.
-
-<figure class="right">
-    ![Försvarets radioanstalts hemsida](image/fra.jpg?w=400)
-    <figcaption>Försvarets radioanstalts hemsida</figcaption>
-</figure>
 
 När förstasidan är öppen uppstår ett referensfel varje gång som huvud&shy;bilden
 laddas om. En av bilderna i "karusellen" sticker ut. Dess storlek är 1,6 MB,
 trots att den är svart&shy;vit. Enligt Google Pagespeed kan man spara in 1,2 MB
 data där.
 
+Sidan laddar många resurser (45 st). Den har ett stort JavaScript-bibliotek,
+och använder stora CSS-filer.
+
 FRA har helt klart inriktat sig på desktop, och får mycket dåliga poäng för sin
 mobil&shy;variant. Vid en snabb överblick verkar det som att man försöker att
 anslå så mycket information som möjligt på mobil&shy;variantens första&shy;sida.
-
-Sidan laddar många resurser (45 st). Den har ett stort JavaScript-bibliotek,
-och använder stora CSS-filer.
 
 För övrigt pågår något annorlunda här. URL:en får någon slags hash eller kod.
 Den verkar dock konstant när jag laddar om den med något dygn emellan.
@@ -184,20 +189,21 @@ som jag instinktivt kan acceptera.
 
 #### Myndigheten för Samhällsskydd och Beredskap
 
-Även MSB borde fokusera mer på mobiltelefoner. Man försöker, som FRA, att
-få in så mycket infor&shy;mation som möjligt på första&shy;sidan.
-
 <figure class="right">
-    ![MSB:s hemsida](image/msb.jpg?w=400)
+    <img src="../image/msb.jpg?w=400&q=50" alt="MSB:s hemsida">
     <figcaption>MSB:s hemsida</figcaption>
 </figure>
 
+MSB har en ganska enkel, men inte helt oproblematisk sida. Det tar alldeles för
+lång tid att ladda vissa bilder, och sidan känns en aning långsam. Helt klart
+tolerabel, men märkbart långsam.
 
 Den största besparing man kan göra här är att använda modernare bild&shy;format,
-och att koda bilder bättre.
+och att koda bilder bättre. Det är egentligen bara förstasidan som är direkt
+bildorienterad. Det är ändå lite segt att bläddra runt på sajten.
 
-Jag kan uppleva den här sidan som en aning långsam. Helt klart tolerabel, men
-märkbart långsam.
+Även MSB borde fokusera mer på mobiltelefoner. Man försöker, som FRA, att
+få in så mycket infor&shy;mation som möjligt på första&shy;sidan där.
 
 ## Felkällor
 

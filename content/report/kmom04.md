@@ -8,15 +8,17 @@ Template: kmom
 Välkommen att läsa min presentation [online][1].
 
 Det här är det sista av de kursmoment som jag redan påbörjat vid ett tidigare
-kurstillfälle. Nu börjar det bli på riktigt igen.
+kurs&shy;tillfälle. Nu börjar det bli på riktigt igen.
 
-Alldeles för mycket tid har lagts på mina teman. Jag lappar och lagar i det
+Jag har lagt alldeles för mycket tid på mina teman. Jag lappar och lagar i det
 ljusa temat, då spricker något i det mörka. Sen lagar jag det mörka temat och något
 fallerar i det ljusa. Jag kan verkligen lägga hur mycket tid som helst på CSS.
 Samtidigt så blev jag rätt nöjd.
 
-Jag beslutade mig för att göra klart nästa moment innan jag lämnar in det här,
-för jag kan i skrivande stund inte få mina bilder att fungera som jag vill.
+Jag valde att samköra det här kursmomentet med kmom05, främst därför att jag
+har bekym&shy;mer med att lägga till bilder i min undersökning. Det skulle
+under arbetet med kmom05 visa sig att miss&shy;taget var att försöka rendera
+markdown inom ett HTML-block. Det går inte.
 
 ## Mondrian
 
@@ -54,14 +56,16 @@ svarta strecken hade nog ändå fått fastställas med CSS.
 
 Jag försökte att hålla mig till ungefär den typografi som borde ha rått kring
 Mondrians målning: _art noveau_. Nu använder jag sans-serifer i brödtexten
-också, något jag brukar försöka att undvika.
+också, något jag brukar försöka att undvika. Jag känner själv att valet är
+tveksamt, men det var det bästa jag kunde finna på Google Fonts.
 
 ## Dark theme
 
 Mitt tema bygger på en gammal monitor. Jag har använt grönt, och bara grönt.
 Till och med bilderna gjorde jag monokroma med CSS och färgade sedan gröna.
 Hade jag vetat hur man ger bilder sämre upplösning (utan att bearbeta dem i
-en dator) så hade jag gjort det.
+en dator) så hade jag gjort det. Det är antagligen möjligt med logic i Pico
+och ordentlig misshandel i cimage.
 
 Jag är väldigt nöjd med hur jag lurar ögat att det rör sig om en monitor. Jag
 har inte bara använt grön text på en svart bakgrund, jag har lagt till en

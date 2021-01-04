@@ -7,54 +7,89 @@ Template: kmom
 
 Välkommen att läsa min presentation [online][1].
 
-## Mondrian
+## Undersökningen
 
+Jag fick min undersökning gjord rätt kvickt. Bra det, för nu ligger jag
+ordentligt efter. Jag har hoppat friskt mellan kmom04 och kmom05. Några av
+de problem som skall lösas finns i bägge momenten. Framför allt att använda
+sig av bilder och ett responsivt grid.
 
+Ett urval om tre webbplatser, särskilt när de är valda ur samma kate&shy;gori
+kan lätt få fel viktning. Jag har skaffat mig över&shy;blick över tre
+myndig&shy;heters hemsidor, det är egentligen allt.
 
-## Dark theme
+## Cimage
 
+Att använda Cimage är inte helt nytt för mig, men den här gången nådde jag en
+bättre förståelse. Det är väldigt praktiskt att cacha upp de bilder man behöver
+senare, men att ändå bara ladda upp en enda bild.
 
-### Refactoring
+Att spara endast lite i poten&shy;tiellt stora kvanti&shy;teter kan ge oanad
+rationali&shy;sering.
 
+## Responsivitet och användbarhet
 
+Det som mest behövs för en god responsi&shy;vitet är det&shy;samma som behövs
+för en god använd&shy;barhet; väl&shy;for&shy;mulerad HTML. Att därefter
+app&shy;licera CSS blir så mycket enklare ju bättre kod man har att utgå ifrån.
+
+Att begära bilder
+i rätt storlek är mycket fördel&shy;aktigt, både för att spara in på
+data&shy;trafik och ladd&shy;tider.
+
+Ett verktyg jag själv använder flitigt är _\&shy;_. Det anger var ord får
+avstavas när det behövs. När man då ändrar storlek på view-port så ändrar
+avstav&shy;ningarna sig också. Det saknas ett opensource-verktyg för att
+auto&shy;matiskt identi&shy;fiera lämpliga ställen och lägga till _\&shy;_.
+I alla fall på Github...
+
+## Bildgalleriet
+
+Jag skapade en ny spash-page för ett bildgalleri.
+
+Bilderna jag använder är mina egna. I vanliga fall när jag skapar bilder för
+nätet så konver&shy;terar jag dem från raw-formatet till jpg. Jag passar på att
+göra bilderna mindre, och att dra ner kvalitén till 85%. Det brukar resultera i
+filer omkring 300 kB stora.
+
+För att nu få ett hyggligt övnings&shy;material försökte jag att göra en så rak
+export som möjligt. De flesta av mina filer ligger nu mellan 500- och 700 kB.
+En är på 1,2 MB. Vissa är omkring 300 kB. Upp&shy;lös&shy;ningen varierar
+beroende på vilken kamera jag använt, och de flesta bilder är svart&shy;vita.
 
 ### Kort och koncist
 
-__Kommentera kort om skrivuppgiften, något som är värt att nämna från arbetet med den?__
+__Berätta kort om erfarenheterna med din undersökning av webbplatsers laddningstid och vad du kom fram till.__
 
-Jag valde ett ämne som legat mig nära under min karriär hittills. Hur
-marknadsför man klassisk musik på ett bra vis? Det jag upptäckt är att det
-används ganska tråkiga färgval för en så kreativ bransch.
+I mitt mycket smala utval fann jag att för stora bilder inte var ett problem.
+Däremot föreslog [Google Pagespeed][2] att man borde använda Googles nya
+bild&shy;format i alla tre fallen. Dock med om&shy;skriv&shy;ningen att man
+borde använda "modernare" bild&shy;format.
 
-Jag hade fördelen att kunna bedriva min studie av orkestrars webbsidor under en
-lite längre tid. Det har ju varit ett egendomligt år för all scenkonst, så det
-har varit intressant att följa med. Möjligen har pandemin
-bidragit till att de inrapporterade sidorna stagnerat en smula.
+__Har du några funderingar kring Cimage och dess nytta och features? Vilka bildverktyg använder du själv normalt sett?__
 
-__Vilket färgschema valde du till ditt tema och hur valde du att använda
-färgerna (mer eller mindre eller lika mycket av alla färger)?__
+Jag har alltid skapat mina bilder via Adobe Lightroom &ndash; en rätt gammal
+utgåva. Där kan man välja att optimera för skärm, och får filer kring 300 kb.
+Tillsammans med _width: 100;_ brukar det vara tillräckligt lätta bilder för
+det mesta.
 
-Min färgpalett är triadisk; röd, blå och gul.
+Cimage verkar vara ett trevligt verktyg. Det roade mig att man var tvungen att
+definiera formatet 1:1 själv.
 
-__Valde du att jobba med accentfärg och i så fall hur?__
+__Vad är din egen allmänna uppfattning kring bilder för webben, nedladdningstider, responsiva bilder och allmänt kring bildbehandling för webben?__
 
-Egentligen så jobbade jag med tre accentfärger. De fick byta plats beroende på
-vilken av dem som jag valde till huvudfärg just där. Hade jag ett rött fält
-blev länkarna vita. Var fältet vitt så var länkarna blåa. Eftersom jag jobbade
-med grundfärger så var det inte så enkelt att kombinera dem. Jag gjorde ett
-försök att låta en vit länk i en blå bakgrund bli gul när jag svävade över den,
-och det fungerade just där.
+Jag vill gärna ha ett verktyg som löser det åt mig, men jag vill också ha
+större kontroll över _hur_ verktyget arbetar. Det krävs en ordentlig
+djup&shy;dykning i Cimage för att förstå just det.
 
-__Hur valde du att lösa ditt dark theme? Gjorde du en kopia på ditt vanliga tema? Eller löste du det med imports?__
-
-Jag använde rikligt med imports. Och... Naturligtvis så skrev jag om alla mina
-moduler igen. Fast det blir ju bättre och bättre för varje gång.
-
-Det finns två syften med mitt mörka tema, dels att det skall se ut som
-grund&sky;temat, och att det ändå skall se ut som en monitor från sent 70-tal.
+Med detta sagt så har jag använt liknande verktyg för Wordpress. Det har då
+involverat något slags användargränssnitt. Resultatet har alltid handlat om
+att göra bilder mindre, inte att lägga till effekter.
 
 __Vilken är din TIL för detta kmom?__
 
 Markdown kan inte renderas inom html-block. Om man använder html så använder man html full ut. Ända undantaget är inline-element som <code\>.
 
 [1]: http://www.student.bth.se/~olai19/dbwebb-kurser/design/me/portfolio/report/kmom05
+
+[2]: https://developers.google.com/speed/pagespeed/insights/
