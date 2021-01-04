@@ -24,8 +24,10 @@
     <!-- <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" /> -->
     {% if config.session.theme == "dark" %}
         <link rel="stylesheet" href="{{ theme_url }}/css/gallery-dark.min.css" type="text/css" />
+        {% set quality = '4' %}
     {% else %}
         <link rel="stylesheet" href="{{ theme_url }}/css/gallery.min.css" type="text/css" />
+        {% set quality = '40' %}
     {% endif %}
 
 </head>
@@ -52,11 +54,19 @@
     </div>
 </header>
     <main>
+
         <div class="gallery">
         {% for image in meta.images %}
-            <img src="{{ base_url }}/image/gallery/{{ image.url }}" alt="{{ image.alt }}" class="{{ image.class }}">
+
+        <div class="{{ image.class }}">
+            <a href="{{ base_url }}/image/gallery/{{ image.url }}">
+                <img src="{{ base_url }}/image/gallery/{{ image.url }}?q={{ quality }}&w=600" alt="{{ image.alt }}" class="zoom">
+            </a>
+        </div>
+
         {% endfor %}
         </div>
+
     </main>
 
     <div class="footer">

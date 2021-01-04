@@ -17,10 +17,30 @@ body {
     width: 100%;
 }
 
-.col2 {
-    grid-column: span 2;
+@media (max-width: 415px) {
+    .col2 {
+        grid-column: span 1;
+    }
+
+    .row2 {
+        grid-row: span 1;
+    }
 }
 
-.row2 {
-    grid-row: span 2;
+@media (min-width: 416px) {
+    .col2 {
+        grid-column: span 2;
+    }
+
+    .row2 {
+        grid-row: span 2;
+    }
+}
+
+.zoom:hover {
+    transform: scale(1.02);
+}
+
+.gallery div {
+    overflow: hidden;
 }

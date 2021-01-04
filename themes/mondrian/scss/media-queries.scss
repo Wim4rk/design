@@ -46,6 +46,10 @@
         grid-column: span 2;
     }
 
+    .gallery .col2 {
+        grid-column: span 1;
+    }
+
     .footer {
         flex-direction: column;
         flex-grow: 1;
