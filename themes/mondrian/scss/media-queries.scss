@@ -12,11 +12,11 @@
 }
 
 @media (max-width: 767px) {
-    #nav {
+    .nav {
         padding: 0 1em;
 
         ul {
-             flex-direction: column;
+            flex-direction: column;
         }
 
         li {

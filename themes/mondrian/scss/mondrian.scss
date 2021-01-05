@@ -111,7 +111,7 @@ body {
     grid-column: span 1;
 }
 
-#side-nav {
+.side-nav {
     padding: $gap-width;
 
     ul {
@@ -140,6 +140,7 @@ body {
 
 .nav-holder {
     background-color: $first-contrast;
+    padding: $gap-width;
 }
 
 .right {
@@ -154,7 +155,7 @@ body {
     margin-left: -1em;
 }
 
-#nav {
+.nav {
     background-color: $first-contrast;
     padding: 3em 1em;
 
@@ -177,7 +178,7 @@ body {
     }
 }
 
-#nav-toggle {
+.nav-toggle {
     background-color: $first-contrast;
 }
 

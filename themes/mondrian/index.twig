@@ -35,7 +35,7 @@
 
         <ul>
             <li class="field white w1">
-                <div id="side-nav" role="navigation" tabindex="-1">
+                <div role="navigation" tabindex="-1" class="side-nav">
                     <ul>
                         {% for page in pages("analysis") if page.title and not page.hidden %}
                         <li{% if page.id == current_page.id %} class="active" {% endif %}>
@@ -49,7 +49,7 @@
                 {{ content }}
             </li>
             <li class="field white w2">
-                <div id="side-nav" role="navigation" tabindex="-1">
+                <div role="navigation" tabindex="-1" class="side-nav">
                     <ul>
                         {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                         <li{% if page.id == current_page.id %} class="active" {% endif %}>

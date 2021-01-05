@@ -81,7 +81,7 @@ body {
 }
 
 .mondrian {
-    max-width: 1035px
+    max-width: 1035px;
 }
 
 .mondrian ul {
@@ -152,23 +152,25 @@ li a {
     text-decoration: none;
 }
 
-#side-nav ul {
-    text-align: left;
-    // display: inherit;
-    background-color: inherit;
-    list-style-type: none;
-    list-style-position: outside;
-    padding: 0;
+.side-nav {
+    ul {
+        display: inherit;
+        text-align: left;
+        background-color: inherit;
+        list-style-type: none;
+        list-style-position: outside;
+        padding: 0;
+    }
 
     li {
         display: block;
         padding: 0;
         color: $body-color;
-
     }
 
     a {
         text-decoration: none;
+        color: $body-color;
     }
 
     a:hover {
@@ -176,7 +178,7 @@ li a {
     }
 }
 
-#nav ul {
+.nav ul {
 
     display: flex;
     justify-content: flex-end;
@@ -199,27 +201,6 @@ li a {
         color: $greyed;
         text-decoration: none;
     }
-}
-
-#side-nav ul {
-    display: inherit;
-    text-align: left;
-    display: inherit;
-    background-color: inherit;
-    list-style-type: none;
-    list-style-position: outside;
-    padding: 0;
-
-    li {
-        display: block;
-        padding: 0;
-
-        a {
-            text-decoration: none;
-            color: $body-color;
-        }
-    }
-
 }
 
 table {
@@ -342,8 +323,8 @@ img {
     align-content: flex-end;
     justify-content: right;
 
-    a{
-        margin: 0 .5vw;
+    a {
+        margin: 0 0.5vw;
     }
 }
 
