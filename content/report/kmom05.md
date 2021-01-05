@@ -7,18 +7,32 @@ Template: kmom
 
 Välkommen att läsa min presentation [online][1].
 
+Min undersökning kan läsas [här][3].
+
+Det är ganska stora kursmoment här. Jag kämpar på, men har givit upp alla
+tankar på att hinna klart med kursen i tid. I och för sig har jag ganska roligt,
+för en gångs skull känner jag inte att jag gör bara det nöd&shy;vändigaste utan
+jag fyller ut övningarna med saker jag länge velat göra.
+
+Kanske börjar jag komma ut ur mitt server&shy;rum för att försiktigt börja
+titta på hur all min optimerade data egent&shy;ligen presenteras.
+
+Men först till väsentligheterna.
+
+<div class="embed-container">
+    <iframe src="https://www.youtube.com/embed/2ShyH-3xkiE?start=60" frameborder="0" allowfullscreen></iframe>
+</div>
+
+Jag lade inte mycket tid på den här övningen, förutom att jag mycket
+nog&shy;grant valde ut klippet jag vill visa er.
+
 ## Undersökningen
 
-Jag fick min undersökning gjord rätt kvickt. Bra det, för nu ligger jag
-ordentligt efter. Jag har hoppat friskt mellan kmom04 och kmom05. Några av
-de problem som skall lösas finns i bägge momenten. Framför allt att använda
-sig av bilder och ett responsivt grid.
+Jag fick min undersökning gjord rätt kvickt. Bra det, när jag nu ligger så
+långt efter.
 
-Ett urval om tre webbplatser, särskilt när de är valda ur samma kate&shy;gori
-kan lätt få fel viktning. Jag har skaffat mig över&shy;blick över tre
-myndig&shy;heters hemsidor, det är egentligen allt.
-
-
+Det har varit intressant att granska sajterna ordentligt i sömmarna. Jag har
+blivit både imponerad och besviken.
 
 ## Responsivitet och användbarhet
 
@@ -26,17 +40,9 @@ Det som mest behövs för en god responsi&shy;vitet är det&shy;samma som behöv
 för en god använd&shy;barhet; väl&shy;for&shy;mulerad HTML. Att därefter
 app&shy;licera CSS blir så mycket enklare ju bättre kod man har att utgå ifrån.
 
-Att begära bilder
-i rätt storlek är mycket fördel&shy;aktigt, både för att spara in på
-data&shy;trafik och ladd&shy;tider.
-
 Ett verktyg jag själv använder flitigt är _&amp;shy;_. Det anger var ord får
 avstavas när det behövs. När man då ändrar storlek på view-port så ändrar
 avstav&shy;ningarna sig också.
-
-Det saknas ett opensource-verktyg på svenska för att auto&shy;matiskt
-identi&shy;fiera lämpliga ställen och lägga till _&amp;shy;_. Det kanske
-är ett framtida projekt?
 
 ## Bildgalleriet
 
@@ -53,7 +59,7 @@ beroende på vilken kamera jag använt, och de flesta bilder är svart&shy;vita.
 Jag skapade en ny splash-page för ett bildgalleri. Jag angav en ny maxbredd;
 10&nbsp;000 px för att alltid fylla hela skärmen. I meta-datan lade jag till
 klasser för att sedan få en så enkel CSS som möjligt. Jag försökte att låta bli
-min header så mycket som möjligt, den hade nog mått bra av mer
+min header så mycket som möjligt, men den hade nog mått bra av mer
 respon&shy;sivitet.
 
 Jag fick galleriet att fungera med 26 rader kod men jag lade till lite
@@ -70,8 +76,8 @@ Att använda Cimage är inte helt nytt för mig, men den här gången nådde jag
 bättre förståelse. Det är väldigt praktiskt att cacha upp de bilder man behöver
 ha i olika format, men att ändå bara ladda upp en enda original&shy;bild.
 
-Att spara endast lite kvalitet i poten&shy;tiellt stora kvanti&shy;teter kan ge
-oanad rationali&shy;sering.
+I processen kan man också spara in på datamängden genom att inte servera mer
+än vad som verkligen behövs.
 
 Jag valde att använda _object-fit: cover;_ för att få mina bilder jämna i
 galleriet. Det gjorde det mer eller mindre onödigt att använda Cimage i det
@@ -79,11 +85,20 @@ hänseendet.
 
 I en loop är det svårt att få Cimage att rätt beskära bilder som har
 olika format. Jag har till exempel bilder både i landskaps- och i
-porträtt&shy;format.
+porträtt&shy;format. För att få ett riktigt bra resultat hade jag behövt
+jobba direkt i html. Alternativt hade jag kunnat hämta bilderna med CSS, det
+skulle vara fullt gångbart &ndash; Cimage jobbar ju utifrån url och
+GET-variabler.
 
-Därför beskar jag alla bilder till 600 pixlars bredd, det minsta som kan
-användas för bilder i landskaps&shy;läge, och jag sänkte kvalitén till 40%.
+Det vore nu att helt börja om så jag valde att beskära alla bilder till 600
+pixlars bredd, vilket är det minsta som kan användas för bilder i
+landskaps&shy;läge. Jag sänkte också kvalitén till 40%. Jag borde därmed uppnå
+en accep&shy;tabel kompri&shy;mering av den bild&shy;data jag sänder.
+
 Bilderna i det mörka temat är 4% av originalets kvalité...
+
+Jag har också sett över bilder på övriga sidor. Där är det mer rättframt
+eftersom jag jobbar i html.
 
 ## Kort och koncist
 
@@ -121,3 +136,5 @@ Markdown kan inte renderas inom html-block. Om man använder html så använder 
 [1]: http://www.student.bth.se/~olai19/dbwebb-kurser/design/me/portfolio/report/kmom05
 
 [2]: https://developers.google.com/speed/pagespeed/insights/
+
+[3]: http://www.student.bth.se/~olai19/dbwebb-kurser/design/me/portfolio/analysis/02_load

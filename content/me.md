@@ -7,7 +7,11 @@ Template: me
 # Jag och design
 
 <figure class="right">
-    <img src="image/hasselblad.jpg?w=400" alt="Bild på mig">
+    <picture>
+        <source media="(min-width: 668px)" srcset="image/hasselblad.jpg?w=400">
+        <source media="(min-width: 376px)" srcset="image/hasselblad.jpg?w=600">
+        <img src="image/hasselblad.jpg?w=400" alt="Bild på mig">
+    </picture>
     <figcaption>Fokusera...</figcaption>
 </figure>
 

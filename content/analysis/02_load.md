@@ -3,7 +3,7 @@ Title: Laddtider
 Description: Analys av laddtider
 Template: me
 ---
-# Laddtider på myndigheters hemsidor
+# Laddtider på tre myndigheters hemsidor
 
 En kort analys av laddtider för tre svenska myndigheters hemsidor.
 
