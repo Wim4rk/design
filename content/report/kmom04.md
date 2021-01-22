@@ -7,6 +7,8 @@ Template: kmom
 
 Välkommen att läsa min presentation [online][1].
 
+Min undersökning kan läsas [här][5].
+
 Det här är det sista av de kursmoment som jag redan påbörjat vid ett tidigare
 kurs&shy;tillfälle. Nu börjar det bli på riktigt igen.
 
@@ -23,7 +25,7 @@ markdown inom ett HTML-block. Det går inte.
 ## Mondrian
 
 Jag har länge velat bygga det här temat &ndash; nu äntligen har jag verktygen. Jag
-utgick från en målning av [Piet Mondrian][2]. Originalet kan beskådas [här][3].
+utgick från en målning av [Piet Mondrian][2]. Här finns [originalet][3].
 
 Det första jag gjorde var att skapa en ny förstasida. En splash-page. Till att
 börja med försökte jag använda markdown. Det gick alldeles utmärkt, förutom att
@@ -44,9 +46,10 @@ rapporter och redovisningar.
 
 ### Färgschema
 
-Färgschemat är triadiskt, även om jag använder den gula färgen mycket lite. Jag
-valde också att hämta färgerna från originalet med färgpipetten i Firefox, så
-rent matematiskt kanske de inte stämmer på ett färghjul.
+Färgschemat är triadiskt, även om jag använder den gula färgen mycket lite,
+precis som Mondrian själv. Jag valde också att hämta färgerna från originalet
+med färgpipetten i Firefox, så rent matematiskt kanske de inte stämmer på ett
+färghjul.
 
 Om jag hade varit riktigt petnoga hade jag kunnat croppa de olika färgfälten ur
 bilden av originalet, då hade jag haft med penseldrag och krackelering. De
@@ -64,7 +67,7 @@ tveksamt, men det var det bästa jag kunde finna på Google Fonts.
 Mitt tema bygger på en gammal monitor. Jag har använt grönt, och bara grönt.
 Till och med bilderna gjorde jag monokroma med CSS och färgade sedan gröna.
 Hade jag vetat hur man ger bilder sämre upplösning (utan att bearbeta dem i
-en dator) så hade jag gjort det. Det är antagligen möjligt med logic i Pico
+en dator) så hade jag gjort det. Det är antagligen möjligt med logik i Pico
 och ordentlig misshandel i cimage.
 
 Jag är väldigt nöjd med hur jag lurar ögat att det rör sig om en monitor. Jag
@@ -113,11 +116,11 @@ och det fungerade just där.
 
 __Hur valde du att lösa ditt dark theme? Gjorde du en kopia på ditt vanliga tema? Eller löste du det med imports?__
 
-Jag använde rikligt med imports. Och... Naturligtvis så skrev jag om alla mina
-moduler igen. Fast det blir ju bättre och bättre för varje gång.
+De är snarlika, så det mesta kunde jag lösa med @imports, men en hel del kod
+kopierades, för att filerna skall vara mer överskådliga.
 
-Det finns två syften med mitt mörka tema, dels att det skall se ut som
-grund&sky;temat, och att det ändå skall se ut som en monitor från sent 70-tal.
+Det finns två mål med mitt mörka tema, dels att det skall se ut som
+grund&shy;temat, och att det ändå skall se ut som en monitor från sent 70-tal.
 
 __Vilken är din TIL för detta kmom?__
 
@@ -126,3 +129,4 @@ Fraktioner, <samp>fr</samp>, är ett lysande verktyg tillsammans med grid och fl
 [1]: http://www.student.bth.se/~olai19/dbwebb-kurser/design/me/portfolio/report/kmom04
 [2]: https://en.wikipedia.org/wiki/Piet_Mondrian
 [3]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Piet_Mondriaan%2C_1930_-_Mondrian_Composition_II_in_Red%2C_Blue%2C_and_Yellow.jpg/800px-Piet_Mondriaan%2C_1930_-_Mondrian_Composition_II_in_Red%2C_Blue%2C_and_Yellow.jpg
+[5]: http://www.student.bth.se/~olai19/dbwebb-kurser/design/me/portfolio/analysis/01_colors
