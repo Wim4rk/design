@@ -15,7 +15,7 @@ images:
     - alt: Alper kring Chamonix
       url: bth-4.jpg
       class:
-    - alt: cyklist op antik cykel
+    - alt: cyklist på antik cykel
       url: bth-5.jpg
       class: row2
     - alt: Flicka framför Saint Pauls Cathedral i London

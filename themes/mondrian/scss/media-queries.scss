@@ -34,9 +34,19 @@
     .w3 {
         grid-column: span 3;
     }
+
+    .footer {
+        flex-flow: column wrap;
+        text-align: center;
+    }
 }
 
 @media (max-width: 571px) {
+    .mondrian ul {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
     .r1 {
         grid-column: span 4;
         grid-row: span 4;
@@ -46,14 +56,17 @@
         grid-column: span 2;
     }
 
+    .w4 {
+        display: none;
+    }
+
     .gallery .col2 {
         grid-column: span 1;
     }
 
-    .footer {
-        flex-direction: column;
-        flex-grow: 1;
-        text-align: center;
+    .mon-soc {
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
@@ -77,10 +90,5 @@
 
     .b1 {
         grid-column: span 3;
-    }
-
-    .mon-soc {
-        flex-direction: column;
-        align-content: stretch;
     }
 }

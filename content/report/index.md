@@ -67,7 +67,7 @@ Template: report
     <div class="kmom-header"><a href="report/kmom10"><h2>Kmom10</h2></a></div>
     <a href="report/kmom10">
     <div class="kb-content">
-            <div class="condenced">Något om kursmomentet.</div>
+            <div class="condenced">Slutredovisning i kursen design.</div>
     </div>
     </a>
 </div>
