@@ -47,6 +47,7 @@ body {
 
 .red {
     background-color: $red;
+    color: #fff;
 }
 
 .blue {
@@ -94,6 +95,7 @@ body {
     grid-column: span 2;
     grid-row: span 2;
     padding: 0;
+    color: $white;
 }
 
 .w3 {

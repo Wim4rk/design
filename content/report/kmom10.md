@@ -18,7 +18,8 @@ något annat på produktionssidan. Antagligen "Musikkåren".
 Jag har skapat en förstasida med en hero-bild. Bildvalet utgår från ett begränsat bibliotek.
 Jag har också försett webbplatsen med en logga som också används som favicon. Heraldik
 är ett känsligt ämne i sammanhanget, så jag har använt en sköld som musikkåren inte använt
-på minst fem år.
+på minst fem år. Antagligen kommer den inte att vara där i slutänden, så jag har
+gjort den mycket liten.
 
 Footern är mest en platshållare just nu. Där skall läggas länkar till formalia &mdash; sidor
 om datalagring, ansvarig utgivare m.m. Det största inslaget blir ett formulär för kundens
@@ -59,7 +60,9 @@ mer än vad hemsidan bygger responsiviteten. Den mindre skärmens begränsningar
 Nuvarande lösning fungerar likadant på en läsplatta som på en mobiltelefon. Jag brukar göra en
 skala däremellan.
 
-Tillgångligheten är god. [Fyll på med info här.]
+Tillgångligheten är god. Jag hade egentligen bara två problem. Det ena var att
+min scroll-knapp inte sade "scroll" någonstans. Det gör den nu, men det fältet
+är dolt. Det andra rörde den röda footern.
 
 ## Rent allmänt
 
@@ -75,7 +78,7 @@ vi har stora förändringar på gång här hemma. Samtidigt känns det viktigt f
 kurser som jag påbörjat, så jag är mycket glad över denna sista chans att göra en inlämning.
 
 CSS är verkligen inte min starkaste gren.
-Ibland är det väldigt svårt att se vilket element som påverkas av vilka kodrader. 
+Ibland är det väldigt svårt att se vilket element som påverkas av vilka kodrader.
 
 ## Tankar om kursen
 
